@@ -1,0 +1,1591 @@
+Converting GML script : ${project_dir}/scripts/_scr_cbGUI_remote_handler/_scr_cbGUI_remote_handler.gml
+Error : variable "variable_instance_get" has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error : variable "variable_instance_set" has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Converted description : /// @description  Listen and remote control experimental feature
+
+Converting GML script : ${project_dir}/scripts/_scr_cbGUI_onMouseUp_cb_handler/_scr_cbGUI_onMouseUp_cb_handler.gml
+Converted description : /// @description _scr_cbGUI_onMouseUp_cb_handler();/// @function _scr_cbGUI_onMouseUp_cb_handler
+
+Converting GML script : ${project_dir}/scripts/_scr_cbGUI_onRelease_cb_handler/_scr_cbGUI_onRelease_cb_handler.gml
+Converted description : /// @description _scr_cbGUI_onRelease_cb_handler();/// @function _scr_cbGUI_onRelease_cb_handler
+
+Converting GML script : ${project_dir}/scripts/scr_cbGUI_set_gui_size/scr_cbGUI_set_gui_size.gml
+Converted description : /// @description  scr_cbGUI_set_gui_size(float);/// @function  scr_cbGUI_set_gui_size
+/// @param float
+
+Converting GML script : ${project_dir}/scripts/_scr_cbGUI_onSubmit_cb_handler/_scr_cbGUI_onSubmit_cb_handler.gml
+Converted description : /// @description _scr_cbGUI_onSubmit_cb_handler();/// @function _scr_cbGUI_onSubmit_cb_handler
+
+Converting GML script : ${project_dir}/scripts/_scr_cbGUI_onMouseOut_cb_handler/_scr_cbGUI_onMouseOut_cb_handler.gml
+Converted description : /// @description _scr_cbGUI_onMouseOut_cb_handler();/// @function _scr_cbGUI_onMouseOut_cb_handler
+
+Converting GML script : ${project_dir}/scripts/_scr_cbGUI_onMouseOver_cb_handler/_scr_cbGUI_onMouseOver_cb_handler.gml
+Converted description : /// @description _scr_cbGUI_onMouseOver_cb_handler();/// @function _scr_cbGUI_onMouseOver_cb_handler
+
+Converting GML script : ${project_dir}/scripts/_scr_cbGUI_set_target/_scr_cbGUI_set_target.gml
+Error : variable "variable_instance_exists" has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script : ${project_dir}/scripts/scr_cbGUI_mouse/scr_cbGUI_mouse.gml
+Converted description : /// @description scr_cbGUI_mouse(boolean);/// @function scr_cbGUI_mouse
+/// @param boolean
+
+Converting GML script : ${project_dir}/scripts/_scr_textbox_textwidth/_scr_textbox_textwidth.gml
+Converted description : /// @description _scr_textbox_textwidth(cursorpos_int);/// @function _scr_textbox_textwidth
+/// @param cursorpos_int
+
+Converting GML script : ${project_dir}/scripts/scr_cbGUI_track_depth_step/scr_cbGUI_track_depth_step.gml
+Converted description : /// @description scr_cbGUI_track_depth_step(gui_mouse_x, gui_mouse_y);/// @function scr_cbGUI_track_depth_step
+/// @param gui_mouse_x
+/// @param  gui_mouse_y
+
+Converting GML script : ${project_dir}/scripts/scr_cbGUI_mark_as_changed/scr_cbGUI_mark_as_changed.gml
+Converted description : /// @description  scr_cbGUI_mark_as_changed(cbGUI_instance);/// @function  scr_cbGUI_mark_as_changed
+/// @param cbGUI_instance
+
+Converting GML script : ${project_dir}/scripts/scr_cbGUI_set_active/scr_cbGUI_set_active.gml
+Converted description : /// @description  scr_cbGUI_set_active(cbGUI_instance);/// @function  scr_cbGUI_set_active
+/// @param cbGUI_instance
+
+Converting GML script : ${project_dir}/scripts/_scr_cbGUI_onChange_cb_handler_x2/_scr_cbGUI_onChange_cb_handler_x2.gml
+Converted description : /// @description onChange Callback handlin
+
+Converting GML script : ${project_dir}/scripts/_scr_textbox_setvalue/_scr_textbox_setvalue.gml
+Converted description : /// @description _scr_textbox_setvalue(t);/// @function _scr_textbox_setvalue
+/// @param t
+
+Converting GML script : ${project_dir}/scripts/_scr_textbox_getcursorpos/_scr_textbox_getcursorpos.gml
+Converted description : /// @description _scr_textbox_getcursorpos(pixels);/// @function _scr_textbox_getcursorpos
+/// @param pixels
+
+Converting GML script : ${project_dir}/scripts/_scr_textbox_setcursorpos/_scr_textbox_setcursorpos.gml
+Converted description : /// @description _scr_textbox_setcursorpos(int);/// @function _scr_textbox_setcursorpos
+/// @param int
+
+Converting GML script : ${project_dir}/scripts/_scr_textbox_inserttext/_scr_textbox_inserttext.gml
+Converted description : /// @description _scr_textbox_inserttext(string);/// @function _scr_textbox_inserttext
+/// @param string
+Converted string : line 72 : "\" -> "\\"
+
+Converting GML script : ${project_dir}/scripts/_scr_cbGUI_onMouseDown_cb_handler/_scr_cbGUI_onMouseDown_cb_handler.gml
+Converted description : /// @description _scr_cbGUI_onMouseDown_cb_handler();/// @function _scr_cbGUI_onMouseDown_cb_handler
+
+Converting GML script : ${project_dir}/scripts/scr_textbox_get_value/scr_textbox_get_value.gml
+Converted description : /// @description  scr_textbox_get_value(textbox_instance);/// @function  scr_textbox_get_value
+/// @param textbox_instance
+
+Converting GML script : ${project_dir}/scripts/scr_textbox_set_sprite/scr_textbox_set_sprite.gml
+Converted description : /// @description  scr_textbox_set_sprite(textbox_instance, sprite_index);/// @function  scr_textbox_set_sprite
+/// @param textbox_instance
+/// @param  sprite_index
+
+Converting GML script : ${project_dir}/scripts/scr_textbox_enable_char_validation/scr_textbox_enable_char_validation.gml
+Converted description : /// @description  scr_textbox_enable_char_validation(textbox_instance, bool);/// @function  scr_textbox_enable_char_validation
+/// @param textbox_instance
+/// @param  bool
+
+Converting GML script : ${project_dir}/scripts/_scr_textbox_getselectedtext/_scr_textbox_getselectedtext.gml
+Converted description : /// @description _scr_textbox_getselectedtext();/// @function _scr_textbox_getselectedtext
+
+Converting GML script : ${project_dir}/scripts/_scr_textbox_calcsizes/_scr_textbox_calcsizes.gml
+Converted description : /// @description  _scr_textbox_calcsizes();/// @function  _scr_textbox_calcsizes
+
+Converting GML script : ${project_dir}/scripts/scr_textbox_clear/scr_textbox_clear.gml
+Converted description : /// @description  scr_textbox_clear(textbox_instance);/// @function  scr_textbox_clear
+/// @param textbox_instance
+
+Converting GML script : ${project_dir}/scripts/scr_textbox_set_font/scr_textbox_set_font.gml
+Converted description : /// @description  scr_textbox_set_font(textbox_instance, font);/// @function  scr_textbox_set_font
+/// @param textbox_instance
+/// @param  font
+
+Converting GML script : ${project_dir}/scripts/scr_textbox_set_text_shadow/scr_textbox_set_text_shadow.gml
+Converted description : /// @description  scr_textbox_set_text_shadow(textbox_instance, bool, offset_px, color, alpha);/// @function  scr_textbox_set_text_shadow
+/// @param textbox_instance
+/// @param  bool
+/// @param  offset_px
+/// @param  color
+/// @param  alpha
+
+Converting GML script : ${project_dir}/scripts/scr_textbox_set_target/scr_textbox_set_target.gml
+Converted description : /// @description  scr_textbox_set_target(textbox_instance, target_object, target_variable);/// @function  scr_textbox_set_target
+/// @param textbox_instance
+/// @param  target_object
+/// @param  target_variable
+
+Converting GML script : ${project_dir}/scripts/scr_textbox_get_target/scr_textbox_get_target.gml
+Converted description : /// @description  scr_textbox_get_target(textbox_instance);/// @function  scr_textbox_get_target
+/// @param textbox_instance
+
+Converting GML script : ${project_dir}/scripts/_scr_textbox_remove/_scr_textbox_remove.gml
+Converted description : /// @description  _scr_textbox_remove(
+
+Converting GML script : ${project_dir}/scripts/scr_textbox_set_value/scr_textbox_set_value.gml
+Converted description : /// @description  scr_textbox_set_value(textbox_instance, string);/// @function  scr_textbox_set_value
+/// @param textbox_instance
+/// @param  string
+
+Converting GML script : ${project_dir}/scripts/scr_textbox_get_target_variable_name/scr_textbox_get_target_variable_name.gml
+Converted description : /// @description  scr_textbox_get_target_variable_name(textbox_instance);/// @function  scr_textbox_get_target_variable_name
+/// @param textbox_instance
+
+Converting GML script : ${project_dir}/scripts/scr_textbox_set_color/scr_textbox_set_color.gml
+Converted description : /// @description  scr_textbox_set_color(textbox_instance, [text_normal_color], [text_disabled_color], [cursor_color], [selection_color], [unfocused_selection_color]);/// @function  scr_textbox_set_color
+/// @param textbox_instance
+/// @param  [text_normal_color]
+/// @param  [text_disabled_color]
+/// @param  [cursor_color]
+/// @param  [selection_color]
+/// @param  [unfocused_selection_color]
+
+Converting GML script : ${project_dir}/scripts/scr_textbox_set_padding/scr_textbox_set_padding.gml
+Converted description : /// @description  scr_textbox_set_padding(textbox_instance, padding);/// @function  scr_textbox_set_padding
+/// @param textbox_instance
+/// @param  padding
+
+Converting GML script : ${project_dir}/scripts/scr_textbox_get_selection_start/scr_textbox_get_selection_start.gml
+Converted description : /// @description  scr_textbox_get_selection_start(textbox_instance);/// @function  scr_textbox_get_selection_start
+/// @param textbox_instance
+
+Converting GML script : ${project_dir}/scripts/_scr_textbox_step_ctrl/_scr_textbox_step_ctrl.gml
+Converted description : /// @description ctrl interaction
+
+Converting GML script : ${project_dir}/scripts/scr_textbox_get_allowed_chars/scr_textbox_get_allowed_chars.gml
+Converted description : /// @description  scr_textbox_get_allowed_chars(textbox_instance);/// @function  scr_textbox_get_allowed_chars
+/// @param textbox_instance
+
+Converting GML script : ${project_dir}/scripts/scr_textbox_unset_target/scr_textbox_unset_target.gml
+Converted description : /// @description  scr_textbox_unset_target(textbox_instance);/// @function  scr_textbox_unset_target
+/// @param textbox_instance
+
+Converting GML script : ${project_dir}/scripts/scr_textbox_set_indent/scr_textbox_set_indent.gml
+Converted description : /// @description  scr_textbox_set_indent(textbox_instance, indent);/// @function  scr_textbox_set_indent
+/// @param textbox_instance
+/// @param  indent
+
+Converting GML script : ${project_dir}/scripts/scr_textbox_set_selection/scr_textbox_set_selection.gml
+Converted description : /// @description  scr_textbox_set_selection(textbox_instance, start_no, end_no);/// @function  scr_textbox_set_selection
+/// @param textbox_instance
+/// @param  start_no
+/// @param  end_no
+
+Converting GML script : ${project_dir}/scripts/scr_textbox_cursor_go_to_start/scr_textbox_cursor_go_to_start.gml
+Converted description : /// @description  scr_textbox_cursor_go_to_start(textbox_instance);/// @function  scr_textbox_cursor_go_to_start
+/// @param textbox_instance
+
+Converting GML script : ${project_dir}/scripts/scr_textbox_cursor_go_to_end/scr_textbox_cursor_go_to_end.gml
+Converted description : /// @description  scr_textbox_cursor_go_to_end(textbox_instance);/// @function  scr_textbox_cursor_go_to_end
+/// @param textbox_instance
+
+Converting GML script : ${project_dir}/scripts/scr_textbox_get_selection_end/scr_textbox_get_selection_end.gml
+Converted description : /// @description  scr_textbox_get_selection_end(textbox_instance);/// @function  scr_textbox_get_selection_end
+/// @param textbox_instance
+
+Converting GML script : ${project_dir}/scripts/scr_textbox_get_cursor_position/scr_textbox_get_cursor_position.gml
+Converted description : /// @description  scr_textbox_get_cursor_position(textbox_instance);/// @function  scr_textbox_get_cursor_position
+/// @param textbox_instance
+
+Converting GML script : ${project_dir}/scripts/scr_textbox_get_selected_text/scr_textbox_get_selected_text.gml
+Converted description : /// @description  scr_textbox_get_selected_text(textbox_instance);/// @function  scr_textbox_get_selected_text
+/// @param textbox_instance
+
+Converting GML script : ${project_dir}/scripts/scr_textbox_is_selected/scr_textbox_is_selected.gml
+Converted description : /// @description  scr_textbox_is_selected(textbox_instance);/// @function  scr_textbox_is_selected
+/// @param textbox_instance
+
+Converting GML script : ${project_dir}/scripts/scr_textbox_is_selection_started/scr_textbox_is_selection_started.gml
+Converted description : /// @description  scr_textbox_is_selection_started(textbox_instance);/// @function  scr_textbox_is_selection_started
+/// @param textbox_instance
+
+Converting GML script : ${project_dir}/scripts/scr_textbox_get_text_length/scr_textbox_get_text_length.gml
+Converted description : /// @description  scr_textbox_get_text_length(textbox_instance);/// @function  scr_textbox_get_text_length
+/// @param textbox_instance
+
+Converting GML script : ${project_dir}/scripts/_scr_slider_setvalue/_scr_slider_setvalue.gml
+Converted description : /// @description _scr_slider_setvalue(x);/// @function _scr_slider_setvalue
+/// @param x
+
+Converting GML script : ${project_dir}/scripts/scr_textbox_set_allowed_chars/scr_textbox_set_allowed_chars.gml
+Converted description : /// @description  scr_textbox_set_allowed_chars(textbox_instance, string);/// @function  scr_textbox_set_allowed_chars
+/// @param textbox_instance
+/// @param  string
+
+Converting GML script : ${project_dir}/scripts/scr_textbox_is_empty/scr_textbox_is_empty.gml
+Converted description : /// @description  scr_textbox_is_empty(textbox_instance);/// @function  scr_textbox_is_empty
+/// @param textbox_instance
+
+Converting GML script : ${project_dir}/scripts/scr_textbox_set_on_change_cb/scr_textbox_set_on_change_cb.gml
+Converted description : /// @description  scr_textbox_set_on_change_cb(textbox_instance, script_asset, [arguments_as_array]);/// @function  scr_textbox_set_on_change_cb
+/// @param textbox_instance
+/// @param  script_asset
+/// @param  [arguments_as_array]
+
+Converting GML script : ${project_dir}/scripts/scr_textbox_delete_selected_text/scr_textbox_delete_selected_text.gml
+Converted description : /// @description  scr_textbox_delete_selected_text(textbox_instance);/// @function  scr_textbox_delete_selected_text
+/// @param textbox_instance
+
+Converting GML script : ${project_dir}/scripts/scr_textbox_select_all/scr_textbox_select_all.gml
+Converted description : /// @description  scr_textbox_select_all(textbox_instance);/// @function  scr_textbox_select_all
+/// @param textbox_instance
+
+Converting GML script : ${project_dir}/scripts/scr_textbox_unselect/scr_textbox_unselect.gml
+Converted description : /// @description  scr_textbox_unselect(textbox_instance);/// @function  scr_textbox_unselect
+/// @param textbox_instance
+
+Converting GML script : ${project_dir}/scripts/_scr_slider_setcursorpos/_scr_slider_setcursorpos.gml
+Converted description : /// @description _scr_slider_setcursorpos(x);/// @function _scr_slider_setcursorpos
+/// @param x
+
+Converting GML script : ${project_dir}/scripts/scr_textbox_set_sizes/scr_textbox_set_sizes.gml
+Converted description : /// @description  scr_textbox_set_sizes(textbox_instance, width_px, height_px);/// @function  scr_textbox_set_sizes
+/// @param textbox_instance
+/// @param  width_px
+/// @param  height_px
+
+Converting GML script : ${project_dir}/scripts/scr_textbox_insert_text/scr_textbox_insert_text.gml
+Converted description : /// @description  scr_textbox_insert_text(textbox_instance, string);/// @function  scr_textbox_insert_text
+/// @param textbox_instance
+/// @param  string
+
+Converting GML script : ${project_dir}/scripts/scr_textbox_set_cursor_position/scr_textbox_set_cursor_position.gml
+Converted description : /// @description  scr_textbox_set_cursor_position(textbox_instance, int);/// @function  scr_textbox_set_cursor_position
+/// @param textbox_instance
+/// @param  int
+
+Converting GML script : ${project_dir}/scripts/_scr_slider_calcsizes/_scr_slider_calcsizes.gml
+Converted description : /// @description _scr_slider_calcsizes();/// @function _scr_slider_calcsizes
+
+Converting GML script : ${project_dir}/scripts/_scr_slider_getcursorpos/_scr_slider_getcursorpos.gml
+Converted description : /// @description _scr_slider_getcursorpos();/// @function _scr_slider_getcursorpos
+
+Converting GML script : ${project_dir}/scripts/scr_textbox_unset_on_change_cb/scr_textbox_unset_on_change_cb.gml
+Converted description : /// @description  scr_textbox_unset_on_change_cb(textbox_instance);/// @function  scr_textbox_unset_on_change_cb
+/// @param textbox_instance
+
+Converting GML script : ${project_dir}/scripts/scr_textbox_unset_on_submit_cb/scr_textbox_unset_on_submit_cb.gml
+Converted description : /// @description  scr_textbox_unset_on_submit_cb(textbox_object);/// @function  scr_textbox_unset_on_submit_cb
+/// @param textbox_object
+
+Converting GML script : ${project_dir}/scripts/_scr_slider_setperc/_scr_slider_setperc.gml
+Converted description : /// @description _scr_slider_setperc(double);/// @function _scr_slider_setperc
+/// @param double
+
+Converting GML script : ${project_dir}/scripts/scr_slider_set_sprite/scr_slider_set_sprite.gml
+Converted description : /// @description  scr_slider_set_sprite(slider_instance, sprite_index, sprite_indicator, sprite_button);/// @function  scr_slider_set_sprite
+/// @param slider_instance
+/// @param  sprite_index
+/// @param  sprite_indicator
+/// @param  sprite_button
+
+Converting GML script : ${project_dir}/scripts/scr_slider_get_target_variable_name/scr_slider_get_target_variable_name.gml
+Converted description : /// @description  scr_slider_get_target_variable_name(slider_instance);/// @function  scr_slider_get_target_variable_name
+/// @param slider_instance
+
+Converting GML script : ${project_dir}/scripts/_scr_slider_setrange/_scr_slider_setrange.gml
+Converted description : /// @description _scr_slider_setrange(i, j);/// @function _scr_slider_setrange
+/// @param i
+/// @param  j
+
+Converting GML script : ${project_dir}/scripts/scr_slider_set_percentage/scr_slider_set_percentage.gml
+Converted description : /// @description scr_slider_set_percentage(slider_instance, float);/// @function scr_slider_set_percentage
+/// @param slider_instance
+/// @param  float
+
+Converting GML script : ${project_dir}/scripts/scr_textbox_set_on_submit_cb/scr_textbox_set_on_submit_cb.gml
+Converted description : /// @description  scr_textbox_set_on_submit_cb(textbox_instance, script_asset, [arguments_as_array]);/// @function  scr_textbox_set_on_submit_cb
+/// @param textbox_instance
+/// @param  script_asset
+/// @param  [arguments_as_array]
+
+Converting GML script : ${project_dir}/scripts/scr_slider_set_step/scr_slider_set_step.gml
+Converted description : /// @description  scr_slider_set_step(slider_instance, step_value_number);/// @function  scr_slider_set_step
+/// @param slider_instance
+/// @param  step_value_number
+
+Converting GML script : ${project_dir}/scripts/_scr_slider_calcindicator/_scr_slider_calcindicator.gml
+Converted description : /// @description _scr_slider_calcindicator();/// @function _scr_slider_calcindicator
+
+Converting GML script : ${project_dir}/scripts/scr_slider_set_value/scr_slider_set_value.gml
+Converted description : /// @description  scr_slider_set_value(slider_instance, float);/// @function  scr_slider_set_value
+/// @param slider_instance
+/// @param  float
+
+Converting GML script : ${project_dir}/scripts/scr_slider_get_target/scr_slider_get_target.gml
+Converted description : /// @description  scr_slider_get_target(slider_instance);/// @function  scr_slider_get_target
+/// @param slider_instance
+
+Converting GML script : ${project_dir}/scripts/scr_slider_get_percentage/scr_slider_get_percentage.gml
+Converted description : /// @description  scr_slider_get_percentage(slider_instance);/// @function  scr_slider_get_percentage
+/// @param slider_instance
+
+Converting GML script : ${project_dir}/scripts/scr_slider_get_step/scr_slider_get_step.gml
+Converted description : /// @description  scr_slider_get_step(slider_instance);/// @function  scr_slider_get_step
+/// @param slider_instance
+
+Converting GML script : ${project_dir}/scripts/scr_slider_unset_on_release_cb/scr_slider_unset_on_release_cb.gml
+Converted description : /// @description  scr_slider_unset_on_release_cb(slider_instance);/// @function  scr_slider_unset_on_release_cb
+/// @param slider_instance
+
+Converting GML script : ${project_dir}/scripts/scr_slider_set_range/scr_slider_set_range.gml
+Converted description : /// @description  scr_slider_set_range(slider_instance, min_value_number, max_value_number);/// @function  scr_slider_set_range
+/// @param slider_instance
+/// @param  min_value_number
+/// @param  max_value_number
+
+Converting GML script : ${project_dir}/scripts/scr_slider_set_on_release_cb/scr_slider_set_on_release_cb.gml
+Converted description : /// @description  scr_slider_set_on_release_cb(slider_instance, script_asset, [arguments_as_array]);/// @function  scr_slider_set_on_release_cb
+/// @param slider_instance
+/// @param  script_asset
+/// @param  [arguments_as_array]
+
+Converting GML script : ${project_dir}/scripts/scr_slider_get_min_limit/scr_slider_get_min_limit.gml
+Converted description : /// @description  scr_slider_get_min_limit(slider_instance);/// @function  scr_slider_get_min_limit
+/// @param slider_instance
+
+Converting GML script : ${project_dir}/scripts/scr_slider_set_on_change_cb/scr_slider_set_on_change_cb.gml
+Converted description : /// @description  scr_slider_set_on_change_cb(slider_instance, script_asset, [arguments_as_array]);/// @function  scr_slider_set_on_change_cb
+/// @param slider_instance
+/// @param  script_asset
+/// @param  [arguments_as_array]
+
+Converting GML script : ${project_dir}/scripts/scr_slider_set_padding/scr_slider_set_padding.gml
+Converted description : /// @description  scr_slider_set_padding(slider_instance, hPadding_px, vPadding_px);/// @function  scr_slider_set_padding
+/// @param slider_instance
+/// @param  hPadding_px
+/// @param  vPadding_px
+
+Converting GML script : ${project_dir}/scripts/scr_slider_set_sizes/scr_slider_set_sizes.gml
+Converted description : /// @description  scr_slider_set_sizes(slider_instance, width_px, height_px);/// @function  scr_slider_set_sizes
+/// @param slider_instance
+/// @param  width_px
+/// @param  height_px
+
+Converting GML script : ${project_dir}/scripts/scr_slider_get_value/scr_slider_get_value.gml
+Converted description : /// @description scr_slider_get_value(slider_instance);/// @function scr_slider_get_value
+/// @param slider_instance
+
+Converting GML script : ${project_dir}/scripts/scr_slider_get_max_limit/scr_slider_get_max_limit.gml
+Converted description : /// @description  scr_slider_get_max_limit(slider_instance);/// @function  scr_slider_get_max_limit
+/// @param slider_instance
+
+Converting GML script : ${project_dir}/scripts/_scr_checkbox_togglevalue/_scr_checkbox_togglevalue.gml
+Converted description : /// @description _scr_checkbox_togglevalue();/// @function _scr_checkbox_togglevalue
+
+Converting GML script : ${project_dir}/scripts/scr_slider_unset_on_change_cb/scr_slider_unset_on_change_cb.gml
+Converted description : /// @description  scr_slider_unset_on_change_cb(slider_instance);/// @function  scr_slider_unset_on_change_cb
+/// @param slider_instance
+
+Converting GML script : ${project_dir}/scripts/scr_slider_set_target/scr_slider_set_target.gml
+Converted description : /// @description  scr_slider_set_target(slider_instance, target_object, target_variable);/// @function  scr_slider_set_target
+/// @param slider_instance
+/// @param  target_object
+/// @param  target_variable
+
+Converting GML script : ${project_dir}/scripts/scr_slider_set_color/scr_slider_set_color.gml
+Converted description : /// @description  scr_slider_set_color(slider_instance, indicator_bar_color, focused_out_indicator_color, disabled_indicator_color);/// @function  scr_slider_set_color
+/// @param slider_instance
+/// @param  indicator_bar_color
+/// @param  focused_out_indicator_color
+/// @param  disabled_indicator_color
+
+Converting GML script : ${project_dir}/scripts/scr_slider_unset_target/scr_slider_unset_target.gml
+Converted description : /// @description  scr_slider_unset_target(slider_instance);/// @function  scr_slider_unset_target
+/// @param slider_instance
+
+Converting GML script : ${project_dir}/scripts/scr_slider_show_button/scr_slider_show_button.gml
+Converted description : /// @description  scr_slider_show_button(slider_instance, boolean);/// @function  scr_slider_show_button
+/// @param slider_instance
+/// @param  boolean
+
+Converting GML script : ${project_dir}/scripts/scr_checkbox_set_sprite/scr_checkbox_set_sprite.gml
+Converted description : /// @description  scr_checkbox_set_sprite(checkbox_instance, normal_sprite, pressed_sprite, tick_sprite);/// @function  scr_checkbox_set_sprite
+/// @param checkbox_instance
+/// @param  normal_sprite
+/// @param  pressed_sprite
+/// @param  tick_sprite
+
+Converting GML script : ${project_dir}/scripts/scr_checkbox_unset_on_change_cb/scr_checkbox_unset_on_change_cb.gml
+Converted description : /// @description  scr_checkbox_unset_on_change_cb(checkbox_instance);/// @function  scr_checkbox_unset_on_change_cb
+/// @param checkbox_instance
+
+Converting GML script : ${project_dir}/scripts/_scr_checkbox_setvalue/_scr_checkbox_setvalue.gml
+Converted description : /// @description _scr_checkbox_setvalue(bool);/// @function _scr_checkbox_setvalue
+/// @param bool
+
+Converting GML script : ${project_dir}/scripts/scr_checkbox_toggle_value/scr_checkbox_toggle_value.gml
+Converted description : /// @description  scr_checkbox_toggle_value(checkbox_instance);/// @function  scr_checkbox_toggle_value
+/// @param checkbox_instance
+
+Converting GML script : ${project_dir}/scripts/scr_checkbox_get_target/scr_checkbox_get_target.gml
+Converted description : /// @description  scr_checkbox_get_target(checkbox_instance);/// @function  scr_checkbox_get_target
+/// @param checkbox_instance
+
+Converting GML script : ${project_dir}/scripts/scr_checkbox_get_target_variable_name/scr_checkbox_get_target_variable_name.gml
+Converted description : /// @description  scr_checkbox_get_target_variable_name(checkbox_instance);/// @function  scr_checkbox_get_target_variable_name
+/// @param checkbox_instance
+
+Converting GML script : ${project_dir}/scripts/scr_checkbox_set_indent/scr_checkbox_set_indent.gml
+Converted description : /// @description  scr_checkbox_set_indent(checkbox_instance, indent);/// @function  scr_checkbox_set_indent
+/// @param checkbox_instance
+/// @param  indent
+
+Converting GML script : ${project_dir}/scripts/scr_checkbox_get_label/scr_checkbox_get_label.gml
+Converted description : /// @description  scr_checkbox_get_label(checkbox_instance);/// @function  scr_checkbox_get_label
+/// @param checkbox_instance
+
+Converting GML script : ${project_dir}/scripts/scr_checkbox_get_value/scr_checkbox_get_value.gml
+Converted description : /// @description  scr_checkbox_get_value(checkbox_instance);/// @function  scr_checkbox_get_value
+/// @param checkbox_instance
+
+Converting GML script : ${project_dir}/scripts/scr_checkbox_set_padding/scr_checkbox_set_padding.gml
+Converted description : /// @description  scr_checkbox_set_padding(checkbox_instance, left_padding_px, top_padding_px);/// @function  scr_checkbox_set_padding
+/// @param checkbox_instance
+/// @param  left_padding_px
+/// @param  top_padding_px
+
+Converting GML script : ${project_dir}/scripts/scr_checkbox_set_value/scr_checkbox_set_value.gml
+Converted description : /// @description  scr_checkbox_set_value(checkbox_instance, boolean);/// @function  scr_checkbox_set_value
+/// @param checkbox_instance
+/// @param  boolean
+
+Converting GML script : ${project_dir}/scripts/scr_checkbox_unset_target/scr_checkbox_unset_target.gml
+Converted description : /// @description  scr_checkbox_unset_target(checkbox_instance);/// @function  scr_checkbox_unset_target
+/// @param checkbox_instance
+
+Converting GML script : ${project_dir}/scripts/scr_checkbox_set_target/scr_checkbox_set_target.gml
+Converted description : /// @description  scr_checkbox_set_target(checkbox_instance, target_object, target_variable);/// @function  scr_checkbox_set_target
+/// @param checkbox_instance
+/// @param  target_object
+/// @param  target_variable
+
+Converting GML script : ${project_dir}/scripts/scr_checkbox_set_on_change_cb/scr_checkbox_set_on_change_cb.gml
+Converted description : /// @description  scr_checkbox_set_on_change_cb(checkbox_instance, script_asset, [arguments_as_array]);/// @function  scr_checkbox_set_on_change_cb
+/// @param checkbox_instance
+/// @param  script_asset
+/// @param  [arguments_as_array]
+
+Converting GML script : ${project_dir}/scripts/_scr_radio_setvalue/_scr_radio_setvalue.gml
+Converted description : /// @description _scr_radio_setvalue(boolean);/// @function _scr_radio_setvalue
+/// @param boolean
+
+Converting GML script : ${project_dir}/scripts/scr_checkbox_set_color/scr_checkbox_set_color.gml
+Converted description : /// @description  scr_checkbox_set_color(checkbox_instance, [text_normal_color], [text_disabled_color], [cursor_color], [selection_color], [unfocused_selection_color]);/// @function  scr_checkbox_set_color
+/// @param checkbox_instance
+/// @param  [text_normal_color]
+/// @param  [text_disabled_color]
+/// @param  [cursor_color]
+/// @param  [selection_color]
+/// @param  [unfocused_selection_color]
+
+Converting GML script : ${project_dir}/scripts/scr_checkbox_set_font/scr_checkbox_set_font.gml
+Converted description : /// @description  scr_checkbox_set_font(checkbox_instance, font);/// @function  scr_checkbox_set_font
+/// @param checkbox_instance
+/// @param  font
+
+Converting GML script : ${project_dir}/scripts/scr_checkbox_set_label/scr_checkbox_set_label.gml
+Converted description : /// @description  scr_checkbox_set_label(checkbox_instance, label_str);/// @function  scr_checkbox_set_label
+/// @param checkbox_instance
+/// @param  label_str
+
+Converting GML script : ${project_dir}/scripts/_scr_radio_togglevalue/_scr_radio_togglevalue.gml
+Converted description : /// @description _scr_radio_togglevalue();/// @function _scr_radio_togglevalue
+
+Converting GML script : ${project_dir}/scripts/scr_radio_set_label/scr_radio_set_label.gml
+Converted description : /// @description  scr_radio_set_label(radio_instance, label_str);/// @function  scr_radio_set_label
+/// @param radio_instance
+/// @param  label_str
+
+Converting GML script : ${project_dir}/scripts/scr_radio_set_color/scr_radio_set_color.gml
+Converted description : /// @description  scr_radio_set_color(radio_instance, text_normal_color, text_disabled_color, cursor_color, selection_color, unfocused_selection_color);/// @function  scr_radio_set_color
+/// @param radio_instance
+/// @param  text_normal_color
+/// @param  text_disabled_color
+/// @param  cursor_color
+/// @param  selection_color
+/// @param  unfocused_selection_color
+
+Converting GML script : ${project_dir}/scripts/scr_radio_set_instance_value/scr_radio_set_instance_value.gml
+Converted description : /// @description  scr_radio_set_instance_value(radio_instance, boolean);/// @function  scr_radio_set_instance_value
+/// @param radio_instance
+/// @param  boolean
+
+Converting GML script : ${project_dir}/scripts/scr_radio_get_instance_value/scr_radio_get_instance_value.gml
+Converted description : /// @description  scr_radio_get_instance_value(radio_instance);/// @function  scr_radio_get_instance_value
+/// @param radio_instance
+
+Converting GML script : ${project_dir}/scripts/scr_radio_group_unselect_all/scr_radio_group_unselect_all.gml
+Converted description : /// @description  scr_radio_group_unselect_all(group_id_int);/// @function  scr_radio_group_unselect_all
+/// @param group_id_int
+
+Converting GML script : ${project_dir}/scripts/_scr_radio_turnalloff/_scr_radio_turnalloff.gml
+Converted description : /// @description _scr_radio_turnalloff();/// @function _scr_radio_turnalloff
+
+Converting GML script : ${project_dir}/scripts/scr_radio_set_sprite/scr_radio_set_sprite.gml
+Converted description : /// @description  scr_radio_set_sprite(radio_instance, normal_sprite, pressed_sprite, tick_sprite);/// @function  scr_radio_set_sprite
+/// @param radio_instance
+/// @param  normal_sprite
+/// @param  pressed_sprite
+/// @param  tick_sprite
+
+Converting GML script : ${project_dir}/scripts/scr_radio_get_group/scr_radio_get_group.gml
+Converted description : /// @description  scr_radio_get_group(radio_instance);/// @function  scr_radio_get_group
+/// @param radio_instance
+
+Converting GML script : ${project_dir}/scripts/scr_radio_set_on_change_cb/scr_radio_set_on_change_cb.gml
+Converted description : /// @description  scr_radio_set_on_change_cb(radio_instance, script_asset, [arguments_as_array]);/// @function  scr_radio_set_on_change_cb
+/// @param radio_instance
+/// @param  script_asset
+/// @param  [arguments_as_array]
+
+Converting GML script : ${project_dir}/scripts/scr_radio_set_padding/scr_radio_set_padding.gml
+Converted description : /// @description  scr_radio_set_padding(radio_instance, left_padding_px, top_padding_px);/// @function  scr_radio_set_padding
+/// @param radio_instance
+/// @param  left_padding_px
+/// @param  top_padding_px
+
+Converting GML script : ${project_dir}/scripts/scr_radio_set_font/scr_radio_set_font.gml
+Converted description : /// @description  scr_radio_set_font(radio_instance, font);/// @function  scr_radio_set_font
+/// @param radio_instance
+/// @param  font
+
+Converting GML script : ${project_dir}/scripts/scr_radio_get_label/scr_radio_get_label.gml
+Converted description : /// @description  scr_radio_get_label(radio_instance);/// @function  scr_radio_get_label
+/// @param radio_instance
+
+Converting GML script : ${project_dir}/scripts/scr_radio_get_name/scr_radio_get_name.gml
+Converted description : /// @description  scr_radio_get_name(radio_instance);/// @function  scr_radio_get_name
+/// @param radio_instance
+
+Converting GML script : ${project_dir}/scripts/scr_radio_get_value/scr_radio_get_value.gml
+Converted description : /// @description  scr_radio_get_value(group_id_int);/// @function  scr_radio_get_value
+/// @param group_id_int
+
+Converting GML script : ${project_dir}/scripts/scr_radio_get_target/scr_radio_get_target.gml
+Converted description : /// @description  scr_radio_get_target(radio_instance);/// @function  scr_radio_get_target
+/// @param radio_instance
+
+Converting GML script : ${project_dir}/scripts/scr_radio_set_value/scr_radio_set_value.gml
+Converted description : /// @description  scr_radio_set_value(group_id, name);/// @function  scr_radio_set_value
+/// @param group_id
+/// @param  name
+
+Converting GML script : ${project_dir}/scripts/scr_radio_set_target/scr_radio_set_target.gml
+Converted description : /// @description scr_radio_set_target(radio_instance, target_object, target_variable);/// @function scr_radio_set_target
+/// @param radio_instance
+/// @param  target_object
+/// @param  target_variable
+
+Converting GML script : ${project_dir}/scripts/scr_radio_set_group/scr_radio_set_group.gml
+Converted description : /// @description  scr_radio_set_group(radio_instance, group_id_int);/// @function  scr_radio_set_group
+/// @param radio_instance
+/// @param  group_id_int
+
+Converting GML script : ${project_dir}/scripts/scr_radio_set_name/scr_radio_set_name.gml
+Converted description : /// @description  scr_radio_set_name(radio_instance, name_str);/// @function  scr_radio_set_name
+/// @param radio_instance
+/// @param  name_str
+
+Converting GML script : ${project_dir}/scripts/scr_radio_unset_on_change_cb/scr_radio_unset_on_change_cb.gml
+Converted description : /// @description  scr_radio_unset_on_change_cb(radio_instance);/// @function  scr_radio_unset_on_change_cb
+/// @param radio_instance
+
+Converting GML script : ${project_dir}/scripts/_scr_button_calcsizes/_scr_button_calcsizes.gml
+Converted description : /// @description _scr_button_calcsizes();/// @function _scr_button_calcsizes
+
+Converting GML script : ${project_dir}/scripts/scr_button_set_sprite/scr_button_set_sprite.gml
+Converted description : /// @description  scr_button_set_sprite(button_object_instance, sprite_index);/// @function  scr_button_set_sprite
+/// @param button_object_instance
+/// @param  sprite_index
+
+Converting GML script : ${project_dir}/scripts/_scr_button_setlabel/_scr_button_setlabel.gml
+Converted description : /// @description _scr_button_setlabel(string);/// @function _scr_button_setlabel
+/// @param string
+
+Converting GML script : ${project_dir}/scripts/_scr_button_removelabel/_scr_button_removelabel.gml
+Converted description : /// @description _scr_button_removelabel();/// @function _scr_button_removelabel
+
+Converting GML script : ${project_dir}/scripts/scr_radio_get_target_variable_name/scr_radio_get_target_variable_name.gml
+Converted description : /// @description  scr_radio_get_target_variable_name(radio_instance);/// @function  scr_radio_get_target_variable_name
+/// @param radio_instance
+
+Converting GML script : ${project_dir}/scripts/_scr_ibutton_calcsizes/_scr_ibutton_calcsizes.gml
+Converted description : /// @description _scr_ibutton_calcsizes();/// @function _scr_ibutton_calcsizes
+
+Converting GML script : ${project_dir}/scripts/_scr_button_getvisiblelabel/_scr_button_getvisiblelabel.gml
+Converted description : /// @description _scr_button_getvisiblelabel();/// @function _scr_button_getvisiblelabel
+
+Converting GML script : ${project_dir}/scripts/scr_radio_unset_target/scr_radio_unset_target.gml
+Converted description : /// @description  scr_radio_unset_target(slider_instance);/// @function  scr_radio_unset_target
+/// @param slider_instance
+
+Converting GML script : ${project_dir}/scripts/scr_button_set_color/scr_button_set_color.gml
+Converted description : /// @description  scr_button_set_color(button_object, label_color, hover_color, pressed_color, disabled_color);/// @function  scr_button_set_color
+/// @param button_object
+/// @param  label_color
+/// @param  hover_color
+/// @param  pressed_color
+/// @param  disabled_color
+
+Converting GML script : ${project_dir}/scripts/scr_button_unset_on_mouseover_cb/scr_button_unset_on_mouseover_cb.gml
+Converted description : /// @description scr_button_unset_on_mouseover_cb(button_instance);/// @function scr_button_unset_on_mouseover_cb
+/// @param button_instance
+
+Converting GML script : ${project_dir}/scripts/scr_button_set_padding/scr_button_set_padding.gml
+Converted description : /// @description  scr_button_set_padding(button_object_instance, left_padding_px, right_padding_px);/// @function  scr_button_set_padding
+/// @param button_object_instance
+/// @param  left_padding_px
+/// @param  right_padding_px
+
+Converting GML script : ${project_dir}/scripts/scr_button_set_sizes/scr_button_set_sizes.gml
+Converted description : /// @description  scr_button_set_sizes(button_instance, width_px, height_px);/// @function  scr_button_set_sizes
+/// @param button_instance
+/// @param  width_px
+/// @param  height_px
+
+Converting GML script : ${project_dir}/scripts/scr_button_set_font/scr_button_set_font.gml
+Converted description : /// @description  scr_button_set_font(button_object, font);/// @function  scr_button_set_font
+/// @param button_object
+/// @param  font
+
+Converting GML script : ${project_dir}/scripts/scr_button_set_font_align/scr_button_set_font_align.gml
+Converted description : /// @description scr_button_set_font_align(button_object, halign, valign);/// @function scr_button_set_font_align
+/// @param button_object
+/// @param  halign
+/// @param  valign
+
+Converting GML script : ${project_dir}/scripts/scr_button_set_on_mouseover_cb/scr_button_set_on_mouseover_cb.gml
+Converted description : /// @description scr_button_set_on_mouseover_cb(button_instance, script_asset, [arguments_as_array]);/// @function scr_button_set_on_mouseover_cb
+/// @param button_instance
+/// @param  script_asset
+/// @param  [arguments_as_array]
+
+Converting GML script : ${project_dir}/scripts/scr_button_set_label/scr_button_set_label.gml
+Converted description : /// @description  scr_button_set_label(button_object, label);/// @function  scr_button_set_label
+/// @param button_object
+/// @param  label
+
+Converting GML script : ${project_dir}/scripts/scr_button_enable_label/scr_button_enable_label.gml
+Converted description : /// @description  scr_button_enable_label(button_object, showLabel?);/// @function  scr_button_enable_label
+/// @param button_object
+/// @param  showLabel?
+
+Converting GML script : ${project_dir}/scripts/_scr_dropdown_setvaluebyitemno/_scr_dropdown_setvaluebyitemno.gml
+Converted description : /// @description _scr_dropdown_setvaluebyitemno(itemno_int);/// @function _scr_dropdown_setvaluebyitemno
+/// @param itemno_int
+
+Converting GML script : ${project_dir}/scripts/scr_button_unset_on_mouseup_cb/scr_button_unset_on_mouseup_cb.gml
+Converted description : /// @description scr_button_unset_on_mouseup_cb(button_instance);/// @function scr_button_unset_on_mouseup_cb
+/// @param button_instance
+
+Converting GML script : ${project_dir}/scripts/scr_button_unset_on_mouseout_cb/scr_button_unset_on_mouseout_cb.gml
+Converted description : /// @description scr_button_unset_on_mouseout_cb(button_instance);/// @function scr_button_unset_on_mouseout_cb
+/// @param button_instance
+
+Converting GML script : ${project_dir}/scripts/scr_button_set_on_mouseout_cb/scr_button_set_on_mouseout_cb.gml
+Converted description : /// @description scr_button_set_on_mouseout_cb(button_instance, script_asset, [arguments_as_array]);/// @function scr_button_set_on_mouseout_cb
+/// @param button_instance
+/// @param  script_asset
+/// @param  [arguments_as_array]
+
+Converting GML script : ${project_dir}/scripts/scr_button_set_on_mousedown_cb/scr_button_set_on_mousedown_cb.gml
+Converted description : /// @description scr_button_set_on_mousedown_cb(button_instance, script_asset, [arguments_as_array]);/// @function scr_button_set_on_mousedown_cb
+/// @param button_instance
+/// @param  script_asset
+/// @param  [arguments_as_array]
+
+Converting GML script : ${project_dir}/scripts/_scr_dropdown_emptykeys/_scr_dropdown_emptykeys.gml
+Converted description : /// @description _scr_dropdown_emptykeys();/// @function _scr_dropdown_emptykeys
+
+Converting GML script : ${project_dir}/scripts/_scr_dropdown_updatekeys/_scr_dropdown_updatekeys.gml
+Converted description : /// @description _scr_dropdown_updatekeys();/// @function _scr_dropdown_updatekeys
+
+Converting GML script : ${project_dir}/scripts/scr_button_set_on_mouseup_cb/scr_button_set_on_mouseup_cb.gml
+Converted description : /// @description scr_button_set_on_mouseup_cb(button_instance, script_asset, [arguments_as_array]);/// @function scr_button_set_on_mouseup_cb
+/// @param button_instance
+/// @param  script_asset
+/// @param  [arguments_as_array]
+
+Converting GML script : ${project_dir}/scripts/_scr_dropdown_setscrollbar/_scr_dropdown_setscrollbar.gml
+Converted description : /// @description _scr_dropdown_setscrollbar();/// @function _scr_dropdown_setscrollbar
+
+Converting GML script : ${project_dir}/scripts/scr_button_unset_on_mousedown_cb/scr_button_unset_on_mousedown_cb.gml
+Converted description : /// @description scr_button_unset_on_mousedown_cb(button_instance);/// @function scr_button_unset_on_mousedown_cb
+/// @param button_instance
+
+Converting GML script : ${project_dir}/scripts/_scr_dropdown_onchange/_scr_dropdown_onchange.gml
+Converted description : /// @description onChange Callback handlin
+
+Converting GML script : ${project_dir}/scripts/_scr_dropdown_setpopup/_scr_dropdown_setpopup.gml
+Converted description : /// @description _scr_dropdown_setpopup();/// @function _scr_dropdown_setpopup
+
+Converting GML script : ${project_dir}/scripts/_scr_dropdown_deletekeys/_scr_dropdown_deletekeys.gml
+Converted description : /// @description _scr_dropdown_deletekeys(single);/// @function _scr_dropdown_deletekeys
+/// @param single
+
+Converting GML script : ${project_dir}/scripts/_scr_dropdown_setkeys/_scr_dropdown_setkeys.gml
+Converted description : /// @description _scr_dropdown_setkeys(array_or_dsmap);/// @function _scr_dropdown_setkeys
+/// @param array_or_dsmap
+
+Converting GML script : ${project_dir}/scripts/_scr_dropdown_openpopup/_scr_dropdown_openpopup.gml
+Converted description : /// @description _scr_dropdown_openpopup(boolean);/// @function _scr_dropdown_openpopup
+/// @param boolean
+
+Converting GML script : ${project_dir}/scripts/scr_dropdown_add_to_list/scr_dropdown_add_to_list.gml
+Converted description : /// @description  scr_dropdown_add_to_list(dropdown_instance, single_or_array_or_dsmap);/// @function  scr_dropdown_add_to_list
+/// @param dropdown_instance
+/// @param  single_or_array_or_dsmap
+
+Converting GML script : ${project_dir}/scripts/scr_dropdown_empty_list/scr_dropdown_empty_list.gml
+Converted description : /// @description  scr_dropdown_empty_list(dropdown_instance);/// @function  scr_dropdown_empty_list
+/// @param dropdown_instance
+
+Converting GML script : ${project_dir}/scripts/_scr_dropdown_addkeys/_scr_dropdown_addkeys.gml
+Converted description : /// @description _scr_dropdown_addkeys(single||array||ds_map);/// @function _scr_dropdown_addkeys
+/// @param single||array||ds_map
+
+Converting GML script : ${project_dir}/scripts/scr_dropdown_set_value/scr_dropdown_set_value.gml
+Converted description : /// @description  scr_dropdown_set_value(dropdown_instance, value);/// @function  scr_dropdown_set_value
+/// @param dropdown_instance
+/// @param  value
+
+Converting GML script : ${project_dir}/scripts/scr_dropdown_get_value/scr_dropdown_get_value.gml
+Converted description : /// @description  scr_dropdown_get_value(dropdown_instance);/// @function  scr_dropdown_get_value
+/// @param dropdown_instance
+
+Converting GML script : ${project_dir}/scripts/scr_dropdown_set_scrollbar_width/scr_dropdown_set_scrollbar_width.gml
+Converted description : /// @description  scr_dropdown_set_scrollbar_width(dropdown_instance, width_px);/// @function  scr_dropdown_set_scrollbar_width
+/// @param dropdown_instance
+/// @param  width_px
+
+Converting GML script : ${project_dir}/scripts/scr_dropdown_get_num_of_lines/scr_dropdown_get_num_of_lines.gml
+Converted description : /// @description  scr_dropdown_get_num_of_lines(dropdown_instance);/// @function  scr_dropdown_get_num_of_lines
+/// @param dropdown_instance
+
+Converting GML script : ${project_dir}/scripts/scr_dropdown_refresh_list/scr_dropdown_refresh_list.gml
+Converted description : /// @description  scr_dropdown_refresh_list(dropdown_instance);/// @function  scr_dropdown_refresh_list
+/// @param dropdown_instance
+
+Converting GML script : ${project_dir}/scripts/scr_dropdown_set_padding/scr_dropdown_set_padding.gml
+Converted description : /// @description  scr_dropdown_set_padding(dropdown_instance, left_padding_px, right_padding_px);/// @function  scr_dropdown_set_padding
+/// @param dropdown_instance
+/// @param  left_padding_px
+/// @param  right_padding_px
+
+Converting GML script : ${project_dir}/scripts/scr_dropdown_is_selected/scr_dropdown_is_selected.gml
+Converted description : /// @description  scr_dropdown_is_selected(dropdown_instance);/// @function  scr_dropdown_is_selected
+/// @param dropdown_instance
+
+Converting GML script : ${project_dir}/scripts/scr_dropdown_set_value_by_line_no/scr_dropdown_set_value_by_line_no.gml
+Converted description : /// @description scr_dropdown_set_value_by_line_no(dropdown_instance, line_no_int);/// @function scr_dropdown_set_value_by_line_no
+/// @param dropdown_instance
+/// @param  line_no_int
+
+Converting GML script : ${project_dir}/scripts/scr_dropdown_delete_from_list/scr_dropdown_delete_from_list.gml
+Converted description : /// @description  scr_dropdown_delete_from_list(dropdown_instance, single);/// @function  scr_dropdown_delete_from_list
+/// @param dropdown_instance
+/// @param  single
+
+Converting GML script : ${project_dir}/scripts/scr_dropdown_is_empty/scr_dropdown_is_empty.gml
+Converted description : /// @description  scr_dropdown_is_empty(dropdown_instance);/// @function  scr_dropdown_is_empty
+/// @param dropdown_instance
+
+Converting GML script : ${project_dir}/scripts/scr_dropdown_unselect/scr_dropdown_unselect.gml
+Converted description : /// @description  scr_dropdown_unselect(dropdown_instance);/// @function  scr_dropdown_unselect
+/// @param dropdown_instance
+
+Converting GML script : ${project_dir}/scripts/scr_dropdown_set_target/scr_dropdown_set_target.gml
+Converted description : /// @description  scr_dropdown_set_target(dropdown_instance, target_object, target_variable);/// @function  scr_dropdown_set_target
+/// @param dropdown_instance
+/// @param  target_object
+/// @param  target_variable
+
+Converting GML script : ${project_dir}/scripts/scr_dropdown_has_scrollbar/scr_dropdown_has_scrollbar.gml
+Converted description : /// @description  scr_dropdown_has_scrollbar(dropdown_instance);/// @function  scr_dropdown_has_scrollbar
+/// @param dropdown_instance
+
+Converting GML script : ${project_dir}/scripts/scr_dropdown_set_sizes/scr_dropdown_set_sizes.gml
+Converted description : /// @description  scr_dropdown_set_sizes(dropdown_instance, body_width_px, body_height_px);/// @function  scr_dropdown_set_sizes
+/// @param dropdown_instance
+/// @param  body_width_px
+/// @param  body_height_px
+
+Converting GML script : ${project_dir}/scripts/scr_dropdown_set_popup_offset/scr_dropdown_set_popup_offset.gml
+Converted description : /// @description  scr_dropdown_set_popup_offset(dropdown_instance, offset_px);/// @function  scr_dropdown_set_popup_offset
+/// @param dropdown_instance
+/// @param  offset_px
+
+Converting GML script : ${project_dir}/scripts/scr_dropdown_set_list/scr_dropdown_set_list.gml
+Converted description : /// @description  scr_dropdown_set_list(dropdown_instance, array_or_dsmap);/// @function  scr_dropdown_set_list
+/// @param dropdown_instance
+/// @param  array_or_dsmap
+
+Converting GML script : ${project_dir}/scripts/scr_dropdown_set_scrollbar_padding/scr_dropdown_set_scrollbar_padding.gml
+Converted description : /// @description scr_dropdown_set_scrollbar_padding(dropdown_instance, top_padding_px, right_padding_px, bottom_padding_px);/// @function scr_dropdown_set_scrollbar_padding
+/// @param dropdown_instance
+/// @param  top_padding_px
+/// @param  right_padding_px
+/// @param  bottom_padding_px
+
+Converting GML script : ${project_dir}/scripts/scr_dropdown_set_popup_padding/scr_dropdown_set_popup_padding.gml
+Converted description : /// @description  scr_dropdown_set_popup_padding(dropdown_instance, top_padding_px, bottom_padding_px);/// @function  scr_dropdown_set_popup_padding
+/// @param dropdown_instance
+/// @param  top_padding_px
+/// @param  bottom_padding_px
+
+Converting GML script : ${project_dir}/scripts/scr_dropdown_set_color/scr_dropdown_set_color.gml
+Converted description : /// @description  scr_dropdown_set_color(dropdown_instance, body_normal_text, body_focus_text, body_disabled_text, popup_normal_text, popup_hover_text, scrollbar_background, scrollbar_body);/// @function  scr_dropdown_set_color
+/// @param dropdown_instance
+/// @param  body_normal_text
+/// @param  body_focus_text
+/// @param  body_disabled_text
+/// @param  popup_normal_text
+/// @param  popup_hover_text
+/// @param  scrollbar_background
+/// @param  scrollbar_body
+
+Converting GML script : ${project_dir}/scripts/scr_dropdown_set_sprite/scr_dropdown_set_sprite.gml
+Converted description : /// @description  scr_dropdown_set_sprite(dropdown_instance, body_sprite_3slices, icon_sprite, popup_body_sprite_9slices, seperator_sprite_3slices);/// @function  scr_dropdown_set_sprite
+/// @param dropdown_instance
+/// @param  body_sprite_3slices
+/// @param  icon_sprite
+/// @param  popup_body_sprite_9slices
+/// @param  seperator_sprite_3slices
+
+Converting GML script : ${project_dir}/scripts/_scr_colorpicker_invalidatesurface/_scr_colorpicker_invalidatesurface.gml
+Converted description : /// @description _scr_colorpicker_invalidatesurface();/// @function _scr_colorpicker_invalidatesurface
+
+Converting GML script : ${project_dir}/scripts/_scr_colorpicker_openpopup/_scr_colorpicker_openpopup.gml
+Converted description : /// @description _scr_colorpicker_openpopup(bool);/// @function _scr_colorpicker_openpopup
+/// @param bool
+
+Converting GML script : ${project_dir}/scripts/scr_colorpicker_set_sizes/scr_colorpicker_set_sizes.gml
+Converted description : /// @description  scr_colorpicker_set_sizes(colorpicker_object_instance, width_px, height_px, border_px);/// @function  scr_colorpicker_set_sizes
+/// @param colorpicker_object_instance
+/// @param  width_px
+/// @param  height_px
+/// @param  border_px
+
+Converting GML script : ${project_dir}/scripts/scr_dropdown_set_font/scr_dropdown_set_font.gml
+Converted description : /// @description  scr_dropdown_set_font(dropdown_instance, body_font, popup_font);/// @function  scr_dropdown_set_font
+/// @param dropdown_instance
+/// @param  body_font
+/// @param  popup_font
+
+Converting GML script : ${project_dir}/scripts/scr_colorpicker_set_value/scr_colorpicker_set_value.gml
+Converted description : /// @description  scr_colorpicker_set_value(colorpicker_instance, color);/// @function  scr_colorpicker_set_value
+/// @param colorpicker_instance
+/// @param  color
+
+Converting GML script : ${project_dir}/scripts/scr_dropdown_set_popup_lineheight/scr_dropdown_set_popup_lineheight.gml
+Converted description : /// @description  scr_dropdown_set_popup_lineheight(dropdown_instance, height_px);/// @function  scr_dropdown_set_popup_lineheight
+/// @param dropdown_instance
+/// @param  height_px
+
+Converting GML script : ${project_dir}/scripts/scr_dropdown_set_font_align/scr_dropdown_set_font_align.gml
+Converted description : /// @description  scr_dropdown_set_font_align(dropdown_instance, halign, valign);/// @function  scr_dropdown_set_font_align
+/// @param dropdown_instance
+/// @param  halign
+/// @param  valign
+
+Converting GML script : ${project_dir}/scripts/scr_colorpicker_set_value_rgb/scr_colorpicker_set_value_rgb.gml
+Converted description : /// @description  scr_colorpicker_set_value_rgb(colorpicker_instance, r, g, b);/// @function  scr_colorpicker_set_value_rgb
+/// @param colorpicker_instance
+/// @param  r
+/// @param  g
+/// @param  b
+
+Converting GML script : ${project_dir}/scripts/scr_dropdown_set_popup_max_lines/scr_dropdown_set_popup_max_lines.gml
+Converted description : /// @description  scr_dropdown_set_popup_max_lines(dropdown_instance, num_of_lines);/// @function  scr_dropdown_set_popup_max_lines
+/// @param dropdown_instance
+/// @param  num_of_lines
+
+Converting GML script : ${project_dir}/scripts/scr_colorpicker_set_value_hsv/scr_colorpicker_set_value_hsv.gml
+Converted description : /// @description  scr_colorpicker_set_value_hsv(colorpicker_instance, h, s, v);/// @function  scr_colorpicker_set_value_hsv
+/// @param colorpicker_instance
+/// @param  h
+/// @param  s
+/// @param  v
+
+Converting GML script : ${project_dir}/scripts/scr_colorpicker_set_value_hex/scr_colorpicker_set_value_hex.gml
+Converted description : /// @description  scr_colorpicker_set_value_hex(colorpicker_instance, RRGGBB);/// @function  scr_colorpicker_set_value_hex
+/// @param colorpicker_instance
+/// @param  RRGGBB
+
+Converting GML script : ${project_dir}/scripts/scr_dropdown_get_target/scr_dropdown_get_target.gml
+Converted description : /// @description  scr_dropdown_get_target(dropdown_instance);/// @function  scr_dropdown_get_target
+/// @param dropdown_instance
+
+Converting GML script : ${project_dir}/scripts/scr_dropdown_unset_on_change_cb/scr_dropdown_unset_on_change_cb.gml
+Converted description : /// @description  scr_dropdown_unset_on_change_cb(dropdown_instance);/// @function  scr_dropdown_unset_on_change_cb
+/// @param dropdown_instance
+
+Converting GML script : ${project_dir}/scripts/scr_dropdown_get_target_variable_name/scr_dropdown_get_target_variable_name.gml
+Converted description : /// @description  scr_dropdown_get_target_variable_name(dropdown_instance);/// @function  scr_dropdown_get_target_variable_name
+/// @param dropdown_instance
+
+Converting GML script : ${project_dir}/scripts/scr_dropbox_unset_target/scr_dropbox_unset_target.gml
+Converted description : /// @description  scr_dropbox_unset_target(dropbox_instance);/// @function  scr_dropbox_unset_target
+/// @param dropbox_instance
+
+Converting GML script : ${project_dir}/scripts/scr_colorpicker_set_on_change_cb/scr_colorpicker_set_on_change_cb.gml
+Converted description : /// @description  scr_colorpicker_set_on_change_cb(colorpicker_instance, script_asset, [arguments_as_array]);/// @function  scr_colorpicker_set_on_change_cb
+/// @param colorpicker_instance
+/// @param  script_asset
+/// @param  [arguments_as_array]
+
+Converting GML script : ${project_dir}/scripts/_scr_colorpicker_setvalue/_scr_colorpicker_setvalue.gml
+Converted description : /// @description _scr_colorpicker_setvalue(value);/// @function _scr_colorpicker_setvalue
+/// @param value
+
+Converting GML script : ${project_dir}/scripts/scr_colorpicker_get_value/scr_colorpicker_get_value.gml
+Converted description : /// @description  scr_colorpicker_get_value(colorpicker_instance);/// @function  scr_colorpicker_get_value
+/// @param colorpicker_instance
+
+Converting GML script : ${project_dir}/scripts/scr_colorpicker_set_ui_color/scr_colorpicker_set_ui_color.gml
+Converted description : /// @description  scr_colorpicker_set_ui_color(colorpicker_instance, normal_color, focused_color, disabled_color, popup_bg_color, popup_border_color, light_info_text_color, dark_info_text_color);/// @function  scr_colorpicker_set_ui_color
+/// @param colorpicker_instance
+/// @param  normal_color
+/// @param  focused_color
+/// @param  disabled_color
+/// @param  popup_bg_color
+/// @param  popup_border_color
+/// @param  light_info_text_color
+/// @param  dark_info_text_color
+
+Converting GML script : ${project_dir}/scripts/scr_dropdown_set_on_change_cb/scr_dropdown_set_on_change_cb.gml
+Converted description : /// @description  scr_dropdown_set_on_change_cb(dropdown_instance, script_asset, [arguments_as_array]);/// @function  scr_dropdown_set_on_change_cb
+/// @param dropdown_instance
+/// @param  script_asset
+/// @param  [arguments_as_array]
+
+Converting GML script : ${project_dir}/scripts/scr_colorpicker_set_font/scr_colorpicker_set_font.gml
+Converted description : /// @description scr_colorpicker_set_font(dropdown_instance, asset_font);/// @function scr_colorpicker_set_font
+/// @param dropdown_instance
+/// @param  asset_font
+
+Converting GML script : ${project_dir}/scripts/scr_colorpicker_show_info/scr_colorpicker_show_info.gml
+Converted description : /// @description  scr_colorpicker_show_info(colorpicker_instance, boolean);/// @function  scr_colorpicker_show_info
+/// @param colorpicker_instance
+/// @param  boolean
+
+Converting GML script : ${project_dir}/scripts/scr_colorpicker_set_target/scr_colorpicker_set_target.gml
+Converted description : /// @description  scr_colorpicker_set_target(colorpicker_instance, target_object, target_variable);/// @function  scr_colorpicker_set_target
+/// @param colorpicker_instance
+/// @param  target_object
+/// @param  target_variable
+
+Converting GML script : ${project_dir}/scripts/scr_colorpicker_auto_copy_to_clipboard/scr_colorpicker_auto_copy_to_clipboard.gml
+Converted description : /// @description  scr_colorpicker_auto_copy_to_clipboard(colorpicker_instance, boolean);/// @function  scr_colorpicker_auto_copy_to_clipboard
+/// @param colorpicker_instance
+/// @param  boolean
+
+Converting GML script : ${project_dir}/scripts/scr_colorpicker_get_hex_value/scr_colorpicker_get_hex_value.gml
+Converted description : /// @description  scr_colorpicker_get_hex_value(colorpicker_instance);/// @function  scr_colorpicker_get_hex_value
+/// @param colorpicker_instance
+
+Converting GML script : ${project_dir}/scripts/scr_colorpicker_set_on_release_cb/scr_colorpicker_set_on_release_cb.gml
+Converted description : /// @description scr_colorpicker_set_on_release_cb(colorpicker_object, script_asset, [arguments_as_array]);/// @function scr_colorpicker_set_on_release_cb
+/// @param colorpicker_object
+/// @param  script_asset
+/// @param  [arguments_as_array]
+
+Converting GML script : ${project_dir}/scripts/scr_colorpicker_unset_on_release_cb/scr_colorpicker_unset_on_release_cb.gml
+Converted description : /// @description scr_colorpicker_unset_on_release_cb(colorpicker_instance);/// @function scr_colorpicker_unset_on_release_cb
+/// @param colorpicker_instance
+
+Converting GML script : ${project_dir}/scripts/scr_colorpicker_unset_on_change_cb/scr_colorpicker_unset_on_change_cb.gml
+Converted description : /// @description  scr_colorpicker_unset_on_change_cb(colorpicker_instance);/// @function  scr_colorpicker_unset_on_change_cb
+/// @param colorpicker_instance
+
+Converting GML script : ${project_dir}/scripts/scr_colorpicker_unset_target/scr_colorpicker_unset_target.gml
+Converted description : /// @description  scr_colorpicker_unset_target(colorpicker_instance);/// @function  scr_colorpicker_unset_target
+/// @param colorpicker_instance
+
+Converting GML script : ${project_dir}/scripts/_scr_text_unsanitize/_scr_text_unsanitize.gml
+Converted description : /// @description removes escape characters and returns the strin
+Converted string : line 3 : "\#" -> "\\#"
+
+Converting GML script : ${project_dir}/scripts/scr_colorpicker_get_target/scr_colorpicker_get_target.gml
+Converted description : /// @description  scr_colorpicker_get_target(colorpicker_instance);/// @function  scr_colorpicker_get_target
+/// @param colorpicker_instance
+
+Converting GML script : ${project_dir}/scripts/_scr_rotate_point/_scr_rotate_point.gml
+Converted description : /// @description _scr_rotate_point(centerx, centery, angle, pointx, pointy){/// @function _scr_rotate_point
+/// @param centerx
+/// @param  centery
+/// @param  angle
+/// @param  pointx
+/// @param  pointy
+
+Converting GML script : ${project_dir}/scripts/_scr_getnearestpower/_scr_getnearestpower.gml
+Converted description : /// @description _scr_getnearestpower(num, powerof);/// @function _scr_getnearestpower
+/// @param num
+/// @param  powerof
+
+Converting GML script : ${project_dir}/scripts/_scr_text_sanitize/_scr_text_sanitize.gml
+Converted description : /// @description adds escape characters and returns the strin
+Converted string : line 3 : "\#" -> "\\#"
+
+Converting GML script : ${project_dir}/scripts/_scr_text_shorten/_scr_text_shorten.gml
+Converted description : /// @description _scr_text_shorten(txt, font, maxwidth_px);/// @function _scr_text_shorten
+/// @param txt
+/// @param  font
+/// @param  maxwidth_px
+
+Converting GML script : ${project_dir}/scripts/scr_colorpicker_get_target_variable_name/scr_colorpicker_get_target_variable_name.gml
+Converted description : /// @description  scr_colorpicker_get_target_variable_name(colorpicker_instance);/// @function  scr_colorpicker_get_target_variable_name
+/// @param colorpicker_instance
+
+Converting GML script : ${project_dir}/scripts/hex_to_dec/hex_to_dec.gml
+Converted description : /// @description  hex_to_dec(hex
+
+Converting GML script : ${project_dir}/scripts/scr_dsmap_get_values/scr_dsmap_get_values.gml
+Converted description : /// @description  scr_dsmap_get_values(ds_map);/// @function  scr_dsmap_get_values
+/// @param ds_map
+
+Converting GML script : ${project_dir}/scripts/scr_dsmap_get_keys/scr_dsmap_get_keys.gml
+Converted description : /// @description  scr_dsmap_get_keys(ds_map);/// @function  scr_dsmap_get_keys
+/// @param ds_map
+
+Converting GML script : ${project_dir}/scripts/hex_to_color/hex_to_color.gml
+Converted description : /// @description  hex_to_color(hex
+
+Converting GML script : ${project_dir}/scripts/implode/implode.gml
+Converted description : /// @description  implode(delimiter,array
+
+Converting GML script : ${project_dir}/scripts/array_concat_1d/array_concat_1d.gml
+Converted description : /// @description  array_concat_1d(array1, array2);/// @function  array_concat_1d
+/// @param array1
+/// @param  array2
+
+Converting GML script : ${project_dir}/scripts/scr_draw_9slices_ext/scr_draw_9slices_ext.gml
+Converted description : /// @description scr_draw_9slices_ext(sprite, subimage, x1, y1, x2, y2, color, alpha);/// @function scr_draw_9slices_ext
+/// @param sprite
+/// @param  subimage
+/// @param  x1
+/// @param  y1
+/// @param  x2
+/// @param  y2
+/// @param  color
+/// @param  alpha
+
+Converting GML script : ${project_dir}/scripts/color_to_hex/color_to_hex.gml
+Converted description : /// @description  color_to_hex(color
+
+Converting GML script : ${project_dir}/scripts/dec_to_hex/dec_to_hex.gml
+Converted description : /// @description  dec_to_hex(dec
+
+Converting GML script : ${project_dir}/scripts/_scr_cbDataGUI_togglegui/_scr_cbDataGUI_togglegui.gml
+Converted builtin : line 6 : view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description : /// @description _scr_cbDataGUI_togglegui();/// @function _scr_cbDataGUI_togglegui
+
+Converting GML script : ${project_dir}/scripts/_scr_cbDataGUI_makevisible/_scr_cbDataGUI_makevisible.gml
+Converted description : /// @description _scr_cbDataGUI_makevisible(instance, boolean);/// @function _scr_cbDataGUI_makevisible
+/// @param instance
+/// @param  boolean
+
+Converting GML script : ${project_dir}/scripts/_scr_cbDataGUI_haspreset/_scr_cbDataGUI_haspreset.gml
+Converted description : /// @description _scr_cbDataGUI_haspreset(name_string);/// @function _scr_cbDataGUI_haspreset
+/// @param name_string
+
+Converting GML script : ${project_dir}/scripts/_scr_cbDataGUI_delpreset/_scr_cbDataGUI_delpreset.gml
+Converted description : /// @description _scr_cbDataGUI_delpreset(optional:name_string);/// @function _scr_cbDataGUI_delpreset
+/// @param optional:name_string
+
+Converting GML script : ${project_dir}/scripts/_scr_cbDataGUI_preset_dropdown_change/_scr_cbDataGUI_preset_dropdown_change.gml
+Converted description : /// @description _scr_cbDataGUI_preset_dropdown_change();/// @function _scr_cbDataGUI_preset_dropdown_change
+
+Converting GML script : ${project_dir}/scripts/_scr_cbDataGUI_newpreset/_scr_cbDataGUI_newpreset.gml
+Converted description : /// @description _scr_cbDataGUI_newpreset(optional:name_string);/// @function _scr_cbDataGUI_newpreset
+/// @param optional:name_string
+
+Converting GML script : ${project_dir}/scripts/_scr_cbDataGUI_loadpreset/_scr_cbDataGUI_loadpreset.gml
+Converted description : /// @description _scr_cbDataGUI_loadpreset(optional:name_string);/// @function _scr_cbDataGUI_loadpreset
+/// @param optional:name_string
+
+Converting GML script : ${project_dir}/scripts/_scr_cbDataGUI_savepreset/_scr_cbDataGUI_savepreset.gml
+Converted description : /// @description _scr_cbDataGUI_savepreset(optional:name_string);/// @function _scr_cbDataGUI_savepreset
+/// @param optional:name_string
+
+Converting GML script : ${project_dir}/scripts/_scr_cbDataGUI_savepresetfile/_scr_cbDataGUI_savepresetfile.gml
+Converted description : /// @description _scr_cbDataGUI_savepresetfile();/// @function _scr_cbDataGUI_savepresetfile
+Converted string : line 21 : "\" -> "\\"
+
+Converting GML script : ${project_dir}/scripts/scr_cbDataGUI_set_gui_width/scr_cbDataGUI_set_gui_width.gml
+Converted description : /// @description  scr_cbDataGUI_set_gui_width(number);/// @function  scr_cbDataGUI_set_gui_width
+/// @param number
+
+Converting GML script : ${project_dir}/scripts/scr_cbDataGUI_add_folder/scr_cbDataGUI_add_folder.gml
+Converted description : /// @description  scr_cbDataGUI_add_folder(name, [optional:folder_instance]);/// @function  scr_cbDataGUI_add_folder
+/// @param name
+/// @param  [optional:folder_instance]
+
+Converting GML script : ${project_dir}/scripts/_scr_cbDataGUI_updatedropdown/_scr_cbDataGUI_updatedropdown.gml
+Converted description : /// @description _scr_cbDataGUI_updatedropdown();/// @function _scr_cbDataGUI_updatedropdown
+
+Converting GML script : ${project_dir}/scripts/_scr_cbDataGUI_add/_scr_cbDataGUI_add.gml
+Error : variable "variable_instance_get" has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Converted description : /// @description _scr_cbDataGUI_add(x, y, cbData_type, target, varname, optional:multiple);/// @function _scr_cbDataGUI_add
+/// @param x
+/// @param  y
+/// @param  cbData_type
+/// @param  target
+/// @param  varname
+/// @param  optional:multiple
+
+Converting GML script : ${project_dir}/scripts/_scr_cbDataGUI_loadpresetfile/_scr_cbDataGUI_loadpresetfile.gml
+Converted description : /// @description _scr_cbDataGUI_loadpresetfile();/// @function _scr_cbDataGUI_loadpresetfile
+
+Converting GML script : ${project_dir}/scripts/scr_cbDataGUI_add/scr_cbDataGUI_add.gml
+Converted description : /// @description  scr_cbDataGUI_add(target_obj, target_variable_str, cbData_type, folder_object_or_-1, [optional: multiple_choice]);/// @function  scr_cbDataGUI_add
+/// @param target_obj
+/// @param  target_variable_str
+/// @param  cbData_type
+/// @param  folder_object_or_-1
+/// @param  [optional: multiple_choice]
+
+Converting GML script : ${project_dir}/scripts/scr_cbDataGUI_toggle_gui/scr_cbDataGUI_toggle_gui.gml
+Converted description : /// @description  scr_cbDataGUI_toggle_gui();/// @function  scr_cbDataGUI_toggle_gui
+
+Converting GML script : ${project_dir}/scripts/_scr_cbDataGUI_tooltip_unset/_scr_cbDataGUI_tooltip_unset.gml
+Converted description : /// @description _scr_cbDataGUI_tooltip_unset(target_object, target_variable);/// @function _scr_cbDataGUI_tooltip_unset
+/// @param target_object
+/// @param  target_variable
+
+Converting GML script : ${project_dir}/scripts/scr_cbDataGUI_set_range/scr_cbDataGUI_set_range.gml
+Converted description : /// @description  scr_cbDataGUI_set_range(target_object, target_variable, min_value_number, max_value_number);/// @function  scr_cbDataGUI_set_range
+/// @param target_object
+/// @param  target_variable
+/// @param  min_value_number
+/// @param  max_value_number
+
+Converting GML script : ${project_dir}/scripts/scr_cbDataGUI_unset_tooltip/scr_cbDataGUI_unset_tooltip.gml
+Converted description : /// @description  scr_cbDataGUI_unset_tooltip(target_object, target_variable);/// @function  scr_cbDataGUI_unset_tooltip
+/// @param target_object
+/// @param  target_variable
+
+Converting GML script : ${project_dir}/scripts/scr_otest_change_color/scr_otest_change_color.gml
+Converted description : /// @description scr_otest_change_color();/// @function scr_otest_change_color
+
+Converting GML script : ${project_dir}/scripts/scr_cbDataGUI_create/scr_cbDataGUI_create.gml
+Converted description : /// @description  scr_cbDataGUI_create();/// @function  scr_cbDataGUI_create
+
+Converting GML script : ${project_dir}/scripts/scr_cbDataGUI_set_gui_size/scr_cbDataGUI_set_gui_size.gml
+Converted description : /// @description  scr_cbDataGUI_set_gui_size(float);/// @function  scr_cbDataGUI_set_gui_size
+/// @param float
+
+Converting GML script : ${project_dir}/scripts/_scr_cbDataGUI_tooltip_set/_scr_cbDataGUI_tooltip_set.gml
+Converted description : /// @description _scr_cbDataGUI_tooltip_add(target_object, target_variable, description_string);/// @function _scr_cbDataGUI_tooltip_add
+/// @param target_object
+/// @param  target_variable
+/// @param  description_string
+
+Converting GML script : ${project_dir}/scripts/scr_cbDataGUI_open_folder/scr_cbDataGUI_open_folder.gml
+Converted description : /// @description  scr_cbDataGUI_open_folder(folder_instance, boolean);/// @function  scr_cbDataGUI_open_folder
+/// @param folder_instance
+/// @param  boolean
+
+Converting GML script : ${project_dir}/scripts/_scr_cbDataGUI_import_json_string/_scr_cbDataGUI_import_json_string.gml
+Converted description : /// @description _scr_cbDataGUI_import_json_string(string);/// @function _scr_cbDataGUI_import_json_string
+/// @param string
+
+Converting GML script : ${project_dir}/scripts/scr_cbDataGUI_save_preset/scr_cbDataGUI_save_preset.gml
+Converted description : /// @description  scr_cbDataGUI_save_preset([optional:name_string]);/// @function  scr_cbDataGUI_save_preset
+/// @param [optional:name_string]
+
+Converting GML script : ${project_dir}/scripts/scr_cbDataGUI_delete_preset/scr_cbDataGUI_delete_preset.gml
+Converted description : /// @description  scr_cbDataGUI_delete_preset(optional:name_string);/// @function  scr_cbDataGUI_delete_preset
+/// @param optional:name_string
+
+Converting GML script : ${project_dir}/scripts/scr_cbDataGUI_get_preset_json/scr_cbDataGUI_get_preset_json.gml
+Converted description : /// @description  scr_cbDataGUI_get_preset_json([copy_to_clipboard?_boolean]);/// @function  scr_cbDataGUI_get_preset_json
+/// @param [copy_to_clipboard?_boolean]
+
+Converting GML script : ${project_dir}/scripts/scr_cbDataGUI_import_presets_json/scr_cbDataGUI_import_presets_json.gml
+Converted description : /// @description  scr_cbDataGUI_import_presets_json(json_string);/// @function  scr_cbDataGUI_import_presets_json
+/// @param json_string
+
+Converting GML script : ${project_dir}/scripts/scr_cbDataGUI_set_tooltip/scr_cbDataGUI_set_tooltip.gml
+Converted description : /// @description  scr_cbDataGUI_set_tooltip(target_object, target_variable, description_string);/// @function  scr_cbDataGUI_set_tooltip
+/// @param target_object
+/// @param  target_variable
+/// @param  description_string
+
+Converting GML script : ${project_dir}/scripts/scr_cbDataGUI_use_presets/scr_cbDataGUI_use_presets.gml
+Converted description : /// @description  scr_cbDataGUI_use_presets(bool);/// @function  scr_cbDataGUI_use_presets
+/// @param bool
+
+Converting GML script : ${project_dir}/scripts/scr_cbDataGUI_set_step/scr_cbDataGUI_set_step.gml
+Converted description : /// @description  scr_cbDataGUI_set_step(target_obj, target_variable_str, step_size_number);/// @function  scr_cbDataGUI_set_step
+/// @param target_obj
+/// @param  target_variable_str
+/// @param  step_size_number
+
+Converting GML script : ${project_dir}/scripts/scr_cbDataGUI_set_on_release_cb/scr_cbDataGUI_set_on_release_cb.gml
+Converted description : /// @description  scr_cbDataGUI_set_on_release_cb(target_object, target_variable, script_asset, [args_as_array]);/// @function  scr_cbDataGUI_set_on_release_cb
+/// @param target_object
+/// @param  target_variable
+/// @param  script_asset
+/// @param  [args_as_array]
+
+Converting GML script : ${project_dir}/scripts/scr_cbDataGUI_add_preset/scr_cbDataGUI_add_preset.gml
+Converted description : /// @description  scr_cbDataGUI_add_preset([optional:name_string]);/// @function  scr_cbDataGUI_add_preset
+/// @param [optional:name_string]
+
+Converting GML script : ${project_dir}/scripts/scr_cbDataGUI_set_presets_folder/scr_cbDataGUI_set_presets_folder.gml
+Converted description : /// @description  scr_cbDataGUI_set_presets_folder(name_string);/// @function  scr_cbDataGUI_set_presets_folder
+/// @param name_string
+Converted string : line 20 : "\" -> "\\"
+Converted string : line 25 : "\" -> "\\"
+Converted string : line 26 : "\" -> "\\"
+
+Converting GML script : ${project_dir}/scripts/scr_cbDataGUI_auto_save_presets/scr_cbDataGUI_auto_save_presets.gml
+Converted description : /// @description  scr_cbDataGUI_auto_save_presets(bool);/// @function  scr_cbDataGUI_auto_save_presets
+/// @param bool
+
+Converting GML script : ${project_dir}/scripts/scr_cbDataGUI_load_preset/scr_cbDataGUI_load_preset.gml
+Converted description : /// @description  scr_cbDataGUI_load_preset(optional:name_string);/// @function  scr_cbDataGUI_load_preset
+/// @param optional:name_string
+
+Converting GML script : ${project_dir}/scripts/scr_cbDataGUI_get_value/scr_cbDataGUI_get_value.gml
+Converted description : /// @description  scr_cbDataGUI_get_value(target_object, target_variable);/// @function  scr_cbDataGUI_get_value
+/// @param target_object
+/// @param  target_variable
+
+Converting GML script : ${project_dir}/scripts/scr_cbDataGUI_set_notification/scr_cbDataGUI_set_notification.gml
+Converted description : /// @description  scr_cbDataGUI_set_notification(message_string, is_error?_boolean, [optional:visible_frame_count]);/// @function  scr_cbDataGUI_set_notification
+/// @param message_string
+/// @param  is_error?_boolean
+/// @param  [optional:visible_frame_count]
+
+Converting GML script : ${project_dir}/scripts/json_minify/json_minify.gml
+Converted description : /// @description  json_minify(json_string
+Converted string : line 16 : '"' -> "\""
+Converted string : line 19 : "\" -> "\\"
+Converted string : line 21 : '"' -> "\""
+
+Converting GML script : ${project_dir}/scripts/scr_cbDataGUI_unset_on_release_cb/scr_cbDataGUI_unset_on_release_cb.gml
+Converted description : /// @description  scr_cbDataGUI_unset_on_release_cb(target_object, target_variable);/// @function  scr_cbDataGUI_unset_on_release_cb
+/// @param target_object
+/// @param  target_variable
+
+Converting GML script : ${project_dir}/scripts/scr_cbDataGUI_unset_on_change_cb/scr_cbDataGUI_unset_on_change_cb.gml
+Converted description : /// @description  scr_cbDataGUI_unset_on_change_cb(target_object, target_variable);/// @function  scr_cbDataGUI_unset_on_change_cb
+/// @param target_object
+/// @param  target_variable
+
+Converting GML script : ${project_dir}/scripts/scr_ft_create_cbdatagui/scr_ft_create_cbdatagui.gml
+Converted description : /// @description  scr_ft_create_cbdatagui();/// @function  scr_ft_create_cbdatagui
+
+Converting GML script : ${project_dir}/scripts/pbuffer_copy_to_surface/pbuffer_copy_to_surface.gml
+Converted description : /// @description pbuffer_copy_to_surface(pbuffer, surface);/// @function pbuffer_copy_to_surface
+/// @param pbuffer
+/// @param  surface
+
+Converting GML script : ${project_dir}/scripts/scr_cbDataGUI_set_on_change_cb/scr_cbDataGUI_set_on_change_cb.gml
+Converted description : /// @description  scr_cbDataGUI_set_on_change_cb(target_object, target_variable, script_asset, [args_as_array]);/// @function  scr_cbDataGUI_set_on_change_cb
+/// @param target_object
+/// @param  target_variable
+/// @param  script_asset
+/// @param  [args_as_array]
+
+Converting GML script : ${project_dir}/scripts/scr_ft_create_flow_field/scr_ft_create_flow_field.gml
+Converted description : /// @description scr_ft_create_flow_field();/// @function scr_ft_create_flow_field
+
+Converting GML script : ${project_dir}/scripts/scr_cbDataGUI_set_as_listener/scr_cbDataGUI_set_as_listener.gml
+Converted description : /// @description  scr_cbDataGUI_set_as_listener(target_object, target_variable);/// @function  scr_cbDataGUI_set_as_listener
+/// @param target_object
+/// @param  target_variable
+
+Converting GML script : ${project_dir}/scripts/scr_alert_demo/scr_alert_demo.gml
+Converted description : /// @description scr_alert_demo();/// @function scr_alert_demo
+
+Converting GML script : ${project_dir}/scripts/scr_ft_destroy/scr_ft_destroy.gml
+Converted description : /// @description scr_ft_destroy();/// @function scr_ft_destroy
+
+Converting GML script : ${project_dir}/scripts/pbuffer_create_from_surface/pbuffer_create_from_surface.gml
+Converted description : /// @description pbuffer_create_from_surface(surface);/// @function pbuffer_create_from_surface
+/// @param surface
+
+Converting GML script : ${project_dir}/scripts/scr_ft_create_mask/scr_ft_create_mask.gml
+Converted description : /// @description scr_ft_create_mask();/// @function scr_ft_create_mask
+
+Converting GML script : ${project_dir}/scripts/pbuffer_pixel_get_a/pbuffer_pixel_get_a.gml
+Converted description : /// @description pbuffer_pixel_get_a(pixel);/// @function pbuffer_pixel_get_a
+/// @param pixel
+
+Converting GML script : ${project_dir}/scripts/scr_ft_set_message/scr_ft_set_message.gml
+Converted description : /// @description scr_ft_set_message(string);/// @function scr_ft_set_message
+/// @param string
+
+Converting GML script : ${project_dir}/scripts/pbuffer_destroy/pbuffer_destroy.gml
+Converted description : /// @description pbuffer_destroy(pbuffer);/// @function pbuffer_destroy
+/// @param pbuffer
+
+Converting GML script : ${project_dir}/scripts/pbuffer_exists/pbuffer_exists.gml
+Converted description : /// @description pbuffer_exists(pbuffer);/// @function pbuffer_exists
+/// @param pbuffer
+
+Converting GML script : ${project_dir}/scripts/pbuffer_get_height/pbuffer_get_height.gml
+Converted description : /// @description pbuffer_get_height(pbuffer);/// @function pbuffer_get_height
+/// @param pbuffer
+
+Converting GML script : ${project_dir}/scripts/pbuffer_get_buffer/pbuffer_get_buffer.gml
+Converted description : /// @description pbuffer_get_buffer(pbuffer);/// @function pbuffer_get_buffer
+/// @param pbuffer
+
+Converting GML script : ${project_dir}/scripts/pbuffer_pixel_get_b/pbuffer_pixel_get_b.gml
+Converted description : /// @description pbuffer_pixel_get_b(pixel, [bool_bgra]);/// @function pbuffer_pixel_get_b
+/// @param pixel
+/// @param  [bool_bgra]
+
+Converting GML script : ${project_dir}/scripts/pbuffer_get_pixel/pbuffer_get_pixel.gml
+Converted description : /// @description pbuffer_get_pixel(pbuffer, x, y);/// @function pbuffer_get_pixel
+/// @param pbuffer
+/// @param  x
+/// @param  y
+
+Converting GML script : ${project_dir}/scripts/pbuffer_pixel_get_r/pbuffer_pixel_get_r.gml
+Converted description : /// @description pbuffer_pixel_get_r(pixel, [bool_bgra]);/// @function pbuffer_pixel_get_r
+/// @param pixel
+/// @param  [bool_bgra]
+
+Converting GML script : ${project_dir}/scripts/pbuffer_is_equal/pbuffer_is_equal.gml
+Converted description : /// @description pbuffer_is_equal(pbuffer_original, pbuffer2);/// @function pbuffer_is_equal
+/// @param pbuffer_original
+/// @param  pbuffer2
+
+Converting GML script : ${project_dir}/scripts/pbuffer_get_width/pbuffer_get_width.gml
+Converted description : /// @description pbuffer_get_width(pbuffer);/// @function pbuffer_get_width
+/// @param pbuffer
+
+Converting GML script : ${project_dir}/scripts/scr_sn_noise/scr_sn_noise.gml
+Converted description : /// @description scr_sn_noise(min, max, octaves, persistence, scale, x, [y, z]);/// @function scr_sn_noise
+/// @param min
+/// @param  max
+/// @param  octaves
+/// @param  persistence
+/// @param  scale
+/// @param  x
+/// @param  [y
+/// @param  z]
+
+Converting GML script : ${project_dir}/scripts/scr_sn_get_seed/scr_sn_get_seed.gml
+Converted description : /// @description scr_sn_get_seed();/// @function scr_sn_get_seed
+
+Converting GML script : ${project_dir}/scripts/pbuffer_pixel_get_color/pbuffer_pixel_get_color.gml
+Converted description : /// @description pbuffer_pixel_get_color(pixel);/// @function pbuffer_pixel_get_color
+/// @param pixel
+
+Converting GML script : ${project_dir}/scripts/pbuffer_pixel_get_g/pbuffer_pixel_get_g.gml
+Converted description : /// @description pbuffer_pixel_get_g(pixel);/// @function pbuffer_pixel_get_g
+/// @param pixel
+
+Converting GML script : ${project_dir}/scripts/_sn_generate_perm/_sn_generate_perm.gml
+Converted description : /// @description _scr_sn_generate_perm();/// @function _scr_sn_generate_perm
+
+Converting GML script : ${project_dir}/scripts/scr_sn_set_seed/scr_sn_set_seed.gml
+Converted description : /// @description scr_sn_set_seed(seed_integer);/// @function scr_sn_set_seed
+/// @param seed_integer
+
+!!! Font cbGUIDebugFont uses a font (Silkscreen) not installed on this system. Font has NOT been regenerated.
+!!! Font cbDataGUIFizzyText font family Arial Black is installed but couldn't match style and has NOT been regenerated.
+Converting GML script : ${project_dir}/objects/obj_cbGUI_button/Step_0.gml
+Converted description : /// @description  ste
+
+Converting GML script : ${project_dir}/objects/obj_cbGUI_button/Mouse_53.gml
+Converted description : /// @description unfocus all buttons in the roo
+
+Converting GML script : ${project_dir}/objects/obj_cbGUI_button/KeyPress_1.gml
+Converted description : /// @description keyboard interaction
+
+Converting GML script : ${project_dir}/objects/obj_cbGUI_imagebutton/Step_0.gml
+Converted description : /// @description mouse & keyboard interaction
+
+Converting GML script : ${project_dir}/objects/obj_cbGUI_imagebutton/Mouse_53.gml
+Converted description : /// @description unfocus all imagebuttons in the roo
+
+Converting GML script : ${project_dir}/objects/obj_cbGUI_imagebutton/KeyPress_1.gml
+Converted description : /// @description keyboard interaction
+
+Converting GML script : ${project_dir}/objects/obj_cbGUI_slider/Step_0.gml
+Converted description : /// @description  ste
+
+Converting GML script : ${project_dir}/objects/obj_cbGUI_slider/Mouse_50.gml
+Converted description : /// @description unfocus all sliders in the roo
+
+Converting GML script : ${project_dir}/objects/obj_cbGUI_slider/KeyPress_1.gml
+Converted description : /// @description keyboard interaction
+
+Converting GML script : ${project_dir}/objects/obj_cbGUI_colorpicker/Step_0.gml
+Converted description : /// @description mouse interaction
+
+Converting GML script : ${project_dir}/objects/obj_cbGUI_colorpicker/Draw_64.gml
+Converted string : line 30 : "\#" -> "\\#"
+
+Converting GML script : ${project_dir}/objects/obj_cbGUI_colorpicker/KeyPress_1.gml
+Converted description : /// @description keyboard interaction
+
+Converting GML script : ${project_dir}/objects/obj_cbGUI_dropdown/Step_0.gml
+Converted description : /// @description  ste
+
+Converting GML script : ${project_dir}/objects/obj_cbGUI_dropdown/KeyPress_1.gml
+Converted description : /// @description keyboard interaction
+
+Converting GML script : ${project_dir}/objects/obj_cbGUI_checkbox/Step_0.gml
+Converted description : /// @description  ste
+
+Converting GML script : ${project_dir}/objects/obj_cbGUI_checkbox/Mouse_53.gml
+Converted description : /// @description unfocus all checkboxes in the roo
+
+Converting GML script : ${project_dir}/objects/obj_cbGUI_checkbox/KeyPress_1.gml
+Converted description : /// @description keyboard interaction
+
+Converting GML script : ${project_dir}/objects/obj_cbGUI_radio/Step_0.gml
+Converted description : /// @description  ste
+
+Converting GML script : ${project_dir}/objects/obj_cbGUI_radio/Mouse_53.gml
+Converted description : /// @description unfocus all radios in the roo
+
+Converting GML script : ${project_dir}/objects/obj_cbGUI_radio/KeyPress_1.gml
+Converted description : /// @description keyboard interaction
+
+!!! Font cbDataGUIFont uses a font (Overpass Mono Light) not installed on this system. Font has NOT been regenerated.
+Font cbDataGUIFontBold has been converted to font family Overpass Mono (Bold). Font has been regenerated, small inconsistencies may occur.
+!!! Font cbGUIFont uses a font (Oxygen Mono) not installed on this system. Font has NOT been regenerated.
+Converting GML script : ${project_dir}/objects/obj_cbGUI_textbox/Create_0.gml
+Converted string : line 45 : " !\#$%&*+,-./0123456789(){}[]:;<=>?@ABCÇDEFGHIJKLMNOÖPQRSTUÜVWXYZ_abcçdefghijklmnoöpqrstuüvwxyz" -> " !\\#$%&*+,-./0123456789(){}[]:;<=>?@ABCÇDEFGHIJKLMNOÖPQRSTUÜVWXYZ_abcçdefghijklmnoöpqrstuüvwxyz"
+
+Converting GML script : ${project_dir}/objects/obj_cbGUI_textbox/Step_0.gml
+Converted description : /// @description  ste
+
+Converting GML script : ${project_dir}/objects/obj_cbGUI_textbox/Mouse_53.gml
+Converted description : /// @description unfocus all textboxes in the roo
+
+Converting GML script : ${project_dir}/objects/obj_cbGUI_textbox/KeyPress_1.gml
+Converted description : /// @description keyboard interaction
+Converted string : line 146 : '' -> ""
+
+Converting GML script : ${project_dir}/objects/obj_cbDataGUI_component/Draw_64.gml
+Converted description : /// @description  Draw GU
+
+Converting GML script : ${project_dir}/objects/obj_cbDataGUI_preset/Create_0.gml
+Converted string : line 23 : "test\" -> "test\\"
+
+Converting GML script : ${project_dir}/objects/obj_cbDataGUI_folder/Draw_64.gml
+Converted description : /// @description  Draw GUI Folde
+
+Converting GML script : ${project_dir}/rooms/rm_example_6/RoomCreationCode.gml
+Converted string : line 1 : 'Import' -> "Import"
+Converted string : line 28 : ' {
+   "presets":[
+      {
+         "Normal":{
+            "growthSpeed":0.978261,
+            "maxSize":5.652174,
+            "pSpeed":0.597826,
+            "message":"Normal",
+            "noiseStrength":5.9
+         }
+      },
+      {
+         "Fast":{
+            "growthSpeed":0.543478,
+            "maxSize":9,
+            "pSpeed":1.521739,
+            "message":"Fast",
+            "noiseStrength":5
+         }
+      }
+   ],
+   "preset":"Fast"
+} ' -> " {
+   "+"\""+@"presets"+"\""+@":[
+      {
+         "+"\""+@"Normal"+"\""+@":{
+            "+"\""+@"growthSpeed"+"\""+@":0.978261,
+            "+"\""+@"maxSize"+"\""+@":5.652174,
+            "+"\""+@"pSpeed"+"\""+@":0.597826,
+            "+"\""+@"message"+"\""+@":"+"\""+@"Normal"+"\""+@",
+            "+"\""+@"noiseStrength"+"\""+@":5.9
+         }
+      },
+      {
+         "+"\""+@"Fast"+"\""+@":{
+            "+"\""+@"growthSpeed"+"\""+@":0.543478,
+            "+"\""+@"maxSize"+"\""+@":9,
+            "+"\""+@"pSpeed"+"\""+@":1.521739,
+            "+"\""+@"message"+"\""+@":"+"\""+@"Fast"+"\""+@",
+            "+"\""+@"noiseStrength"+"\""+@":5
+         }
+      }
+   ],
+   "+"\""+@"preset"+"\""+@":"+"\""+@"Fast"+"\""+@"
+} "
+
+Converting GML script : ${project_dir}/objects/obj_cbDataGUI_notification/Alarm_1.gml
+Converted description : /// @description  fading ou
+
+Converting GML script : ${project_dir}/objects/obj_cbDataGUI_notification/Alarm_0.gml
+Converted description : /// @description  visible tim
+
+Converting GML script : ${project_dir}/objects/obj_cbDataGUI_tooltip/Alarm_1.gml
+Converted description : /// @description  Sets tooltip popup position with a low priority
+
+Converting GML script : ${project_dir}/objects/obj_cbDataGUI_tooltip/Alarm_0.gml
+Converted description : /// @description  Show/hide fade ani
+
+Converting GML script : ${project_dir}/rooms/rm_example_1/RoomCreationCode.gml
+Converted string : line 1 : 'cbDataGUI' -> "cbDataGUI"
+
+Converting GML script : ${project_dir}/rooms/rm_example_3/RoomCreationCode.gml
+Converted string : line 1 : 'Folders' -> "Folders"
+
+Converting GML script : ${project_dir}/rooms/rm_example_4/RoomCreationCode.gml
+Converted string : line 2 : 'Colors' -> "Colors"
+
+Converting GML script : ${project_dir}/rooms/rm_example_2/RoomCreationCode.gml
+Converted string : line 1 : 'Constrain' -> "Constrain"
+
+Exception while converting ${project_dir}/objects/oCP/Draw_0.gml : System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+  at System.String.Substring (System.Int32 startIndex, System.Int32 length) [0x00053] in <dbb16e0bacdc4a0f87478e401bc29b6c>:0 
+  at YoYoStudio.GMX.GMXFile.GML1XReparse (System.String _original, System.String _desc, System.Boolean fExpression, System.Boolean f1XParse) [0x06c40] in <1da7518a3c7c4a2f930fe6c89b26413b>:0 
+------------------------------------------------------------------------------
+Original was
+------------------------------------------------------------------------------
+///
+
+
+------------------------------------------------------------------------------
+Current Result was
+------------------------------------------------------------------------------
+///
+
+
+Converting GML script : ${project_dir}/rooms/rm_example_7/RoomCreationCode.gml
+Converted string : line 1 : 'Alert' -> "Alert"
+
+Converting GML script : ${project_dir}/rooms/rm_example_5/RoomCreationCode.gml
+Converted string : line 1 : 'Saving' -> "Saving"
+
+Converting GML script : ${project_dir}/rooms/room_masktest/RoomCreationCode.gml
+Converted description : /// @description  scr_ft_create_cbdatagui();/// @function  scr_ft_create_cbdatagui
+
+macOS icon ${options_dir}/mac/icons/icon512.png written out as 32-bit.
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2.
+game speed set to 60
+added compatibility script action/action_restart_game.gml
+added compatibility script d3d/d3d_transform_add_translation.gml
+added compatibility script d3d/d3d_transform_set_identity.gml
+added compatibility script d3d/d3d_transform_set_rotation_z.gml
+added compatibility script draw/draw_enable_alphablend.gml
+added compatibility script draw/draw_set_color_write_enable.gml
+added compatibility script instance/instance_create.gml
+added compatibility script object/object_get_depth.gml
+added compatibility script texture/texture_set_interpolation.gml
+added compatibility script view/__view_get.gml
+added compatibility script action/__init_action.gml
+added compatibility script d3d/__init_d3d.gml
+added compatibility script view/__init_view.gml
+added compatibility script __init_global.gml
+added compatibility script __global_object_depths.gml

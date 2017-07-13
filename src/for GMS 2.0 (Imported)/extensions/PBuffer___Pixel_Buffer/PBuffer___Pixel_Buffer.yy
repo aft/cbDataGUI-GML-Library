@@ -1,0 +1,70 @@
+{
+    "id": "404a774a-94a3-489d-8115-1504b0fb6226",
+    "modelName": "GMExtension",
+    "mvc": "1.0",
+    "name": "PBuffer___Pixel_Buffer",
+    "IncludedResources": [
+        "Objects\\pbuffer_test_dynamic",
+        "Objects\\pbuffer_test_static",
+        "Objects\\pbuffer_test_compare",
+        "Rooms\\room_pbuffer_test_static",
+        "Rooms\\room_pbuffer_test_dynamic",
+        "Rooms\\room_pbuffer_compare",
+        "Shaders\\sha_colors.shader",
+        "Shaders\\sha_testcard.shader",
+        "Scripts\\GPUToolkit\\PBuffer\\pbuffer_create_from_surface",
+        "Scripts\\GPUToolkit\\PBuffer\\pbuffer_copy_to_surface",
+        "Scripts\\GPUToolkit\\PBuffer\\pbuffer_destroy",
+        "Scripts\\GPUToolkit\\PBuffer\\pbuffer_is_equal",
+        "Scripts\\GPUToolkit\\PBuffer\\pbuffer_exists",
+        "Scripts\\GPUToolkit\\PBuffer\\pbuffer_get_pixel",
+        "Scripts\\GPUToolkit\\PBuffer\\pbuffer_get_width",
+        "Scripts\\GPUToolkit\\PBuffer\\pbuffer_get_height",
+        "Scripts\\GPUToolkit\\PBuffer\\pbuffer_get_buffer",
+        "Scripts\\GPUToolkit\\PBuffer\\pbuffer_pixel_get_color",
+        "Scripts\\GPUToolkit\\PBuffer\\pbuffer_pixel_get_r",
+        "Scripts\\GPUToolkit\\PBuffer\\pbuffer_pixel_get_g",
+        "Scripts\\GPUToolkit\\PBuffer\\pbuffer_pixel_get_b",
+        "Scripts\\GPUToolkit\\PBuffer\\pbuffer_pixel_get_a",
+        "Scripts\\GPUToolkit\\PBuffer\\buffer_exists_hack",
+        "Scripts\\GPUToolkit\\PBuffer\\README",
+        "Fonts\\font0"
+    ],
+    "androidPermissions": [
+        
+    ],
+    "androidProps": true,
+    "androidactivityinject": "",
+    "androidclassname": "",
+    "androidinject": "",
+    "androidmanifestinject": "",
+    "androidsourcedir": "",
+    "author": "",
+    "classname": "",
+    "copyToTargets": 9223372036854775807,
+    "date": "2017-15-13 12:07:10",
+    "description": "",
+    "extensionName": "",
+    "files": [
+        
+    ],
+    "gradleinject": "",
+    "helpfile": "",
+    "installdir": "",
+    "iosProps": true,
+    "iosSystemFrameworkEntries": [
+        
+    ],
+    "iosThirdPartyFrameworkEntries": [
+        
+    ],
+    "iosplistinject": "",
+    "license": "Free to use, also for commercial games.",
+    "maccompilerflags": "",
+    "maclinkerflags": "",
+    "macsourcedir": "",
+    "packageID": "com.cembaspinar.pbuffer",
+    "productID": "",
+    "sourcedir": "",
+    "version": "1.2.1"
+}
