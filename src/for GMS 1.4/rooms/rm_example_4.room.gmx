@@ -22,7 +22,12 @@
 scr_cbDataGUI_add(obj_fizzy_text, "color1", cbData_type.color, -1);
 scr_cbDataGUI_add(obj_fizzy_text, "color2", cbData_type.color, -1);
 scr_cbDataGUI_add(obj_fizzy_text, "color3", cbData_type.color, -1);
-scr_cbDataGUI_add(obj_fizzy_text, "color4", cbData_type.color, -1);</code>
+scr_cbDataGUI_add(obj_fizzy_text, "color4", cbData_type.color, -1);
+
+scr_cbDataGUI_set_value(obj_fizzy_text, "color1", obj_fizzy_text.color1);
+scr_cbDataGUI_set_value(obj_fizzy_text, "color2", obj_fizzy_text.color2);
+scr_cbDataGUI_set_value(obj_fizzy_text, "color3", obj_fizzy_text.color3);
+scr_cbDataGUI_set_value(obj_fizzy_text, "color4", obj_fizzy_text.color4);</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>

@@ -14,7 +14,10 @@
 
 scr_cbDataGUI_add(obj_fizzy_text, "pSpeed", cbData_type.number, -1);
 scr_cbDataGUI_set_range(obj_fizzy_text, "pSpeed", -2.5, 2.5);
+scr_cbDataGUI_set_value(obj_fizzy_text, "pSpeed", obj_fizzy_text.pSpeed);
+
 scr_cbDataGUI_add(obj_fizzy_text, "color4", cbData_type.color, -1);
+scr_cbDataGUI_set_value(obj_fizzy_text, "color4", obj_fizzy_text.color4);
 
 
 // Attaches an alert script to the slider for on_Release event

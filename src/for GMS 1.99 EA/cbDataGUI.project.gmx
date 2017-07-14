@@ -4,7 +4,7 @@
     <Config>Configs\Default</Config>
   </Configs>
   <datafiles number="7" name="datafiles">
-    <datafiles number="7" name="Documentation">
+    <datafiles number="7" name="Documentation for 1.9">
       <datafile>
         <name>data.js</name>
         <exists>-1</exists>
@@ -570,6 +570,8 @@
       <script>scripts\scr_cbDataGUI_set_range.gml</script>
       <script>scripts\scr_cbDataGUI_open_folder.gml</script>
       <script>scripts\scr_cbDataGUI_get_value.gml</script>
+      <script>scripts\scr_cbDataGUI_set_value.gml</script>
+      <script>scripts\scr_cbDataGUI_has_row.gml</script>
       <script>scripts\scr_cbDataGUI_toggle_gui.gml</script>
       <script>scripts\scr_cbDataGUI_set_tooltip.gml</script>
       <script>scripts\scr_cbDataGUI_unset_tooltip.gml</script>

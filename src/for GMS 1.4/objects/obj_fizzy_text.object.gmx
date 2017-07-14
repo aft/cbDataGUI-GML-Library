@@ -111,6 +111,83 @@ scr_ft_create_flow_field();
         </arguments>
       </action>
     </event>
+    <event eventtype="3" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (scr_cbDataGUI_has_row(obj_fizzy_text, "message")) {
+    message = scr_cbDataGUI_get_value(obj_fizzy_text, "message");
+}
+
+if (scr_cbDataGUI_has_row(obj_fizzy_text, "pSpeed")) {
+    pSpeed = scr_cbDataGUI_get_value(obj_fizzy_text, "pSpeed");
+}
+
+if (scr_cbDataGUI_has_row(obj_fizzy_text, "displayOutline")) {
+    displayOutline = scr_cbDataGUI_get_value(obj_fizzy_text, "displayOutline");
+}
+
+if (scr_cbDataGUI_has_row(obj_fizzy_text, "noiseStrength")) {
+    noiseStrength = scr_cbDataGUI_get_value(obj_fizzy_text, "noiseStrength");
+}
+
+if (scr_cbDataGUI_has_row(obj_fizzy_text, "growthSpeed")) {
+    growthSpeed = scr_cbDataGUI_get_value(obj_fizzy_text, "growthSpeed");
+}
+
+if (scr_cbDataGUI_has_row(obj_fizzy_text, "minSize")) {
+    minSize = scr_cbDataGUI_get_value(obj_fizzy_text, "minSize");
+}
+
+if (scr_cbDataGUI_has_row(obj_fizzy_text, "maxSize")) {
+    maxSize = scr_cbDataGUI_get_value(obj_fizzy_text, "maxSize");
+}
+
+if (scr_cbDataGUI_has_row(obj_fizzy_text, "displayFlowNoise")) {
+    displayFlowNoise = scr_cbDataGUI_get_value(obj_fizzy_text, "displayFlowNoise");
+}
+
+if (scr_cbDataGUI_has_row(obj_fizzy_text, "noiseScale")) {
+    noiseScale = scr_cbDataGUI_get_value(obj_fizzy_text, "noiseScale");
+}
+
+if (scr_cbDataGUI_has_row(obj_fizzy_text, "pAlpha")) {
+    pAlpha = scr_cbDataGUI_get_value(obj_fizzy_text, "pAlpha");
+}
+
+if (scr_cbDataGUI_has_row(obj_fizzy_text, "color1")) {
+    color1 = scr_cbDataGUI_get_value(obj_fizzy_text, "color1");
+}
+
+if (scr_cbDataGUI_has_row(obj_fizzy_text, "color2")) {
+    color2 = scr_cbDataGUI_get_value(obj_fizzy_text, "color2");
+}
+
+if (scr_cbDataGUI_has_row(obj_fizzy_text, "color3")) {
+    color3 = scr_cbDataGUI_get_value(obj_fizzy_text, "color3");
+}
+
+if (scr_cbDataGUI_has_row(obj_fizzy_text, "color4")) {
+    color4 = scr_cbDataGUI_get_value(obj_fizzy_text, "color4");
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="7" enumb="5">
       <action>
         <libid>1</libid>

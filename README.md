@@ -1,11 +1,16 @@
 cbDataGUI GML Library
 ==========
 
+![cbDataGUI Logo](./graphics/icon.png)
+
 cbDataGUI is an open-source, easy to implement GUI for manipulating object instance variables written in GML (Gamemaker Studio's scripting language)
 
 Best fit for debugging, data visualization, demos and prototyping.
 
 cbDataGUI is based on the idea and the look of Google’s Dat.GUI library.
+
+[Marketplace Page]:https://marketplace.yoyogames.com/assets/5601/cbdatagui-library
+
 
 Usage
 -----
@@ -28,9 +33,11 @@ scr_cbDataGUI_add(obj_fizzy_text, "scr_fizzy_text_explode", cbData_type.function
 ```
 
 
+
 More Info
 ------
 For more info, check the documentation provided with the project file.
+
 
 
 Contributing
@@ -53,9 +60,11 @@ Cem Baspinar
 + http://twitter.com/aft
 
 
+
 Thanks
 ------
 Thanks to anyone who downloaded the extention from the marketplace.
+
 
 
 Copyright and License

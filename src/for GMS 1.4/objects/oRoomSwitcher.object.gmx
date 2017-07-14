@@ -25,8 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>caption = "cbDataGUI";
-compiler = "GMS 1.99.551 Early Access";
+            <string>caption = "cbDataGUI for 1.4";
+compiler = "GM:S 1.4.1763";
 </string>
           </argument>
         </arguments>
