@@ -282,6 +282,8 @@
           <script>scripts\scr_textbox_onchangetest.gml</script>
           <script>scripts\scr_textbox_onsubmittest.gml</script>
           <script>scripts\scr_textbox_set_sizes.gml</script>
+          <script>scripts\scr_textbox_create.gml</script>
+          <script>scripts\scr_textbox_create_ext.gml</script>
         </scripts>
       </scripts>
       <scripts name="slider">
@@ -320,6 +322,8 @@
           <script>scripts\scr_slider_set_color.gml</script>
           <script>scripts\scr_slider_unset_target.gml</script>
           <script>scripts\scr_slider_show_button.gml</script>
+          <script>scripts\scr_slider_create.gml</script>
+          <script>scripts\scr_slider_create_ext.gml</script>
         </scripts>
       </scripts>
       <scripts name="checkbox">
@@ -346,6 +350,8 @@
           <script>scripts\scr_checkbox_set_label.gml</script>
           <script>scripts\scr_checkbox_set_color.gml</script>
           <script>scripts\scr_checkbox_set_font.gml</script>
+          <script>scripts\scr_checkbox_create.gml</script>
+          <script>scripts\scr_checkbox_create_ext.gml</script>
         </scripts>
       </scripts>
       <scripts name="radio">
@@ -378,6 +384,8 @@
           <script>scripts\scr_radio_unset_on_change_cb.gml</script>
           <script>scripts\scr_radio_unset_target.gml</script>
           <script>scripts\scr_radio_onchangetest.gml</script>
+          <script>scripts\scr_radio_create.gml</script>
+          <script>scripts\scr_radio_create_ext.gml</script>
         </scripts>
       </scripts>
       <scripts name="button">
@@ -410,6 +418,8 @@
           <script>scripts\scr_button_unset_on_mousedown_cb.gml</script>
           <script>scripts\scr_button_set_on_mouseup_cb.gml</script>
           <script>scripts\scr_button_unset_on_mouseup_cb.gml</script>
+          <script>scripts\scr_button_create.gml</script>
+          <script>scripts\scr_button_create_ext.gml</script>
         </scripts>
       </scripts>
       <scripts name="dropdown">

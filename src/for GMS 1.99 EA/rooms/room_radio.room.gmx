@@ -19,8 +19,8 @@ show_debug_message(string( scr_radio_get_value(1) ));</code>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1028</w>
-    <h>767</h>
+    <w>1026</w>
+    <h>601</h>
     <showGrid>-1</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -55,7 +55,7 @@ show_debug_message(string( scr_radio_get_value(1) ));</code>
   </views>
   <instances>
     <instance objName="obj_Game" x="0" y="0" name="inst_388D644A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_cbGUI_radio" x="32" y="32" name="inst_43ACBB22" locked="0" code="group = 1;&#xA;name = &quot;1a&quot;;&#xA;label = name;&#xA;value = true;&#xA;_scr_cbGUI_setactive();&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cbGUI_radio" x="32" y="32" name="inst_43ACBB22" locked="0" code="group = 1;&#xA;name = &quot;1a&quot;;&#xA;label = name;&#xA;value = true;&#xA;_scr_cbGUI_setactive();" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cbGUI_radio" x="128" y="143" name="inst_98A98D2A" locked="0" code="group = 2;&#xA;name = &quot;2c&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cbGUI_radio" x="32" y="192" name="inst_DE30D515" locked="0" code="group = 1;&#xA;name = &quot;1d&quot;;&#xA;label = name;&#xA;disabled = true;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cbGUI_radio" x="128" y="32" name="inst_1AA3DE78" locked="0" code="group = 2;&#xA;name = &quot;2a&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
