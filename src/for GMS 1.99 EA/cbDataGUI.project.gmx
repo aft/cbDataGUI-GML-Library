@@ -96,7 +96,7 @@
     <extension index="0">extensions\PBuffer - Pixel Buffer</extension>
     <extension index="1">extensions\sn</extension>
     <extension index="2">extensions\NoisePack CPU</extension>
-    <extension index="3">extensions\cbDataGUI</extension>
+    <extension index="3">extensions\cbDataGUI for 1.9 EA</extension>
   </NewExtensions>
   <sounds name="sound"/>
   <sprites name="sprites">
