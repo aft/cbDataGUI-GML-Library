@@ -34,7 +34,7 @@
 * using the component add script with an argument.&lt;/p&gt;
 
 * &lt;p&gt;Example Code:&lt;/p&gt;
-* &lt;pre&gt;var folder_flow = scr_cbDataGUI_add_folder("Flow");
+* &lt;pre&gt;var folder_flow = scr_cbDataGUI_add_folder("Flow");&lt;br /&gt; 
 * scr_cbDataGUI_add(obj, "message", cbData_type.text, folder_flow);&lt;/pre&gt;
 
 * &lt;p&gt;If a component is not going to be in a folder, -1 value needs to be

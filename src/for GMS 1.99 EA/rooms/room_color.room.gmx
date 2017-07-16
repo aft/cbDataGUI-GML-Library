@@ -16,8 +16,8 @@
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1030</w>
-    <h>603</h>
+    <w>1026</w>
+    <h>601</h>
     <showGrid>-1</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>1</page>
-    <xoffset>-172</xoffset>
-    <yoffset>-146</yoffset>
+    <xoffset>-165</xoffset>
+    <yoffset>-122</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>

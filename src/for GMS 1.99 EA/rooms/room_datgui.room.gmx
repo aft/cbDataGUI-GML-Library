@@ -84,8 +84,8 @@ scr_cbDataGUI_use_presets(true);</code>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1030</w>
-    <h>603</h>
+    <w>1026</w>
+    <h>601</h>
     <showGrid>-1</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>

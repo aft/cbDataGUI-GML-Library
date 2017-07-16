@@ -35,7 +35,7 @@
 * &lt;p&gt;To show a notification use scr_cbDataGUI_set_notificaton() script.&lt;/p&gt;
 
 * &lt;p&gt;Example Code:&lt;/p&gt;
-* &lt;pre&gt;scr_cbDataGUI_set_notification("This is a notification, false);
+* &lt;pre&gt;scr_cbDataGUI_set_notification("This is a notification, false);&lt;br /&gt;
 * scr_cbDataGUI_set_notification("This is an error, true);&lt;/pre&gt;
 
 */

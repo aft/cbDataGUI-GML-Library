@@ -420,6 +420,8 @@
           <script>scripts\scr_button_unset_on_mouseup_cb.gml</script>
           <script>scripts\scr_button_create.gml</script>
           <script>scripts\scr_button_create_ext.gml</script>
+          <script>scripts\scr_imagebutton_create.gml</script>
+          <script>scripts\scr_imagebutton_create_ext.gml</script>
         </scripts>
       </scripts>
       <scripts name="dropdown">
@@ -472,6 +474,8 @@
           <script>scripts\scr_dropdown_get_target_variable_name.gml</script>
           <script>scripts\scr_dropbox_unset_target.gml</script>
           <script>scripts\scr_dropdown_onchangetest.gml</script>
+          <script>scripts\scr_dropdown_create.gml</script>
+          <script>scripts\scr_dropdown_create_ext.gml</script>
         </scripts>
       </scripts>
       <scripts name="colorpicker">
@@ -501,6 +505,8 @@
           <script>scripts\scr_colorpicker_get_target.gml</script>
           <script>scripts\scr_colorpicker_get_target_variable_name.gml</script>
           <script>scripts\scr_colorpicker_unset_target.gml</script>
+          <script>scripts\scr_colorpicker_create.gml</script>
+          <script>scripts\scr_colorpicker_create_ext.gml</script>
         </scripts>
       </scripts>
       <scripts name="utils">

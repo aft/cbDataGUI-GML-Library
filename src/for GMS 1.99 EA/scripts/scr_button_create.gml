@@ -1,6 +1,6 @@
 /// scr_button_create(x, y, label_str);
 /**
- * @brief  Creates a textbox at the given position. 
+ * @brief  Creates a button at the given position. 
  *
  * @param  {number} x X coordinate
  * @param  {number} y Y coordinate
