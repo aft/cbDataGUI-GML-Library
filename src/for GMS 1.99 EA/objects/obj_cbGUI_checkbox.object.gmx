@@ -183,14 +183,14 @@ d3d_transform_add_translation(x, y, 0);
     // draw checkbox
     var spr = sprite_index;
     if (value) spr = pressed_sprite_index;
-    draw_sprite_ext(spr, image_index, 0, 0, 1, 1, 0, c_white, alpha);
+    draw_sprite_ext(spr, image_index, 0, 0, 1, 1, 0, blend_color, alpha);
     
     // draw tick
     if (value) {
         draw_sprite_ext(tick_sprite_index, image_index, 
                         sprite_width / 2, 
                         sprite_height / 2, 
-                        1, 1, 0, c_white, alpha);
+                        1, 1, 0, blend_color, alpha);
     }
     
     // Draw label

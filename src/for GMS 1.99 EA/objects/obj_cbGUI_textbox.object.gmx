@@ -250,15 +250,16 @@ d3d_transform_add_translation(x, y, 0);
     
     // draw textbox
     var sw = sprite_get_width(sprite_index)/3;
-    draw_sprite_part_ext(sprite_index, image_index, 0,   0,  sw, sprite_height,  0,          0, 1,  1, c_white, alpha);
-    draw_sprite_part_ext(sprite_index, image_index, sw,  0,  sw, sprite_height, sw,          0, (_bodyW-2*sw)/sw, 1, c_white, alpha);
-    draw_sprite_part_ext(sprite_index, image_index, sw*2,0,  sw, sprite_height, _bodyW-sw, 0, 1,  1, c_white, alpha);
+    draw_sprite_part_ext(sprite_index, image_index, 0,   0,  sw, sprite_height,  0,          0, 1,  1, blend_color, alpha);
+    draw_sprite_part_ext(sprite_index, image_index, sw,  0,  sw, sprite_height, sw,          0, (_bodyW-2*sw)/sw, 1, blend_color, alpha);
+    draw_sprite_part_ext(sprite_index, image_index, sw*2,0,  sw, sprite_height, _bodyW-sw, 0, 1,  1, blend_color, alpha);
 
     // draw _selection box
     if (_selected) {
         var c;
         if (_onFocus) c = c_selection;
         else c = c_foutselection;
+        if (blend_color != c_white) c = merge_color(c, blend_color, .5);
         draw_set_colour(c);
         var sx1 = _scr_textbox_textwidth(_selection[0]-_lo),
             sx2 = _scr_textbox_textwidth(_selection[1]-_lo);

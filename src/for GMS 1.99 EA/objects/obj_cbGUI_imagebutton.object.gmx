@@ -174,7 +174,7 @@ d3d_transform_set_rotation_z(rotation);
 d3d_transform_add_translation(x, y, 0);
    
     // draw button body
-    draw_sprite_ext(sprite_index, image_index, 0,   0, image_xscale, image_yscale,  0, c_white, alpha);
+    draw_sprite_ext(sprite_index, image_index, 0,   0, image_xscale, image_yscale,  0, blend_color, alpha);
 
 /* 
     // debug
