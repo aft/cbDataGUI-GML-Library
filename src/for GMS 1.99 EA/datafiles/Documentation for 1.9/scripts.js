@@ -124,7 +124,7 @@ GMScript.prototype.toHTML = function () {
         html += "<h2>See also</h2>";
         for (var i = 0; i < this.references.length; i++) {
             var reference = this.references[i];
-            html += "<a href='#" + reference + "'>" + reference + "</a> ";
+            html += "<a href='#" + reference + "'>" + reference + "</a><br /> ";
         }
     }
 

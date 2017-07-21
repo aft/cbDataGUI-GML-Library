@@ -21,6 +21,6 @@ if (!instance_exists(o)) return undefined;
 
 with (o) {
     label = argument1;
-    return label;
+    return true;
 }
 

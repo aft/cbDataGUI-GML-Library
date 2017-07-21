@@ -25,7 +25,56 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>event_inherited();
+            <string>/**
+* Sliders are horizontal ui elements that allows users to change a numerical 
+* value of a variable.&lt;br /&gt;&lt;br /&gt;
+* &lt;h2&gt;Features&lt;/h2&gt;
+* &lt;ul&gt;
+* &lt;li&gt;Supports tab-switching&lt;/li&gt;
+* &lt;li&gt;Has 3 states: Normal, onFocus, Disabled&lt;/li&gt;
+* &lt;li&gt;Supports variable size&lt;/li&gt;
+* &lt;li&gt;Moving slider with mouse and keyboard&lt;/li&gt;
+* &lt;li&gt;Step size can be set for incrementing and decrementing&lt;/li&gt;
+* &lt;li&gt;Support for shift key to change value faster&lt;/li&gt;
+* &lt;li&gt;Look of the slider can be customized using scripts&lt;/li&gt;
+* &lt;li&gt;Supports rotation&lt;/li&gt;
+* &lt;li&gt;Tested on Windows and OSX.&lt;/li&gt;
+* &lt;/ul&gt;
+* &lt;p&gt;The skin of the slider can be changed using a sprite. The sprite needs to
+* have 3 sub-images. Each image is for a state:&lt;/p&gt;
+* &lt;ul&gt;&lt;li&gt;image_index 0: Normal State&lt;/li&gt;
+* &lt;li&gt;image_index 1: onFocus State (User is on the slider, ready to slide)&lt;/li&gt;
+* &lt;li&gt;image_index 2: Disabled state (User can't interact with the element)&lt;/li&gt;
+* &lt;/ul&gt;
+* &lt;p&gt;The sprite that creates the body of the slider needs to be 3x slice type. That
+* means the sprite is divided into equal 3 parts horizontally to
+* create the body. Any width that is divisible to 3 is fine.&lt;/p&gt;
+* &lt;p&gt;The sprite that creates the fill area inside the slider needs to be 3x slice type.&lt;/p&gt;
+* &lt;p&gt;Optionally, you can enable or disable a button for the user to grap the
+* sliding cursor. The sprite for this button can also be set using scripts. This sprite
+* is drawn as it is, without changing its size.&lt;/p&gt; 
+* &lt;h2&gt;Callback Scripts&lt;/h2&gt;
+* &lt;p&gt;For sliders you can optionally set two different kind of callback action.&lt;/p&gt;
+* &lt;ul&gt;&lt;li&gt;&lt;strong&gt;onChange&lt;/strong&gt;: Triggered after user makes a change on the value of 
+* the slider. Scripts to add and remove a callback are scr_slider_set_on_change_cb and
+* scr_slider_unset_on_change_cb.&lt;/li&gt;
+* &lt;li&gt;&lt;strong&gt;onRelease&lt;/strong&gt;: onRelease is the action triggered when the user  
+* releases the left mouse button after a value change. Scripts responsible to set and 
+* unset onRelease callbacks are scr_slider_set_on_release and scr_slider_unset_on_release 
+* scripts.&lt;/li&gt;&lt;/ul&gt;
+* &lt;h2&gt;Other properties you can adjust:&lt;/h2&gt;
+* &lt;ul&gt;
+* &lt;li&gt;&lt;strong&gt;sizes&lt;/strong&gt;: Width and height of the slider can be adjusted using
+* scr_slider_set_sizes script.&lt;/li&gt;
+* &lt;li&gt;&lt;strong&gt;padding&lt;/strong&gt;: Distances of the fill area to four edges. Adjust it using 
+* scr_slider_set_padding script.&lt;/li&gt;
+* &lt;li&gt;&lt;strong&gt;button&lt;/strong&gt;: Enable or disable the visibility of the slider button. Adjust it using 
+* scr_slider_show_button script.&lt;/li&gt;
+* &lt;li&gt;&lt;strong&gt;colors&lt;/strong&gt;: Adjust colors using scr_slider_set_color script&lt;/li&gt;
+* &lt;/ul&gt;
+*/
+
+event_inherited();
 
 _type = 1;
 

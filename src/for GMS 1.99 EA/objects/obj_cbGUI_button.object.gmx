@@ -25,7 +25,58 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>event_inherited();
+            <string>/**
+* Buttons are ui elements that users can interact and trigger a script call.&lt;br /&gt;&lt;br /&gt;
+* &lt;h2&gt;Features&lt;/h2&gt;
+* &lt;ul&gt;
+* &lt;li&gt;Supports tab-switching&lt;/li&gt;
+* &lt;li&gt;Has 4 states: Normal, onFocus/Hover, Pressed, Disabled&lt;/li&gt;
+* &lt;li&gt;Has optional labels&lt;/li&gt;
+* &lt;li&gt;Can be interacted with mouse or keyboard&lt;/li&gt;
+* &lt;li&gt;Look of the button can be customized using a sprite&lt;/li&gt;
+* &lt;li&gt;Supports rotation&lt;/li&gt;
+* &lt;li&gt;Tested on Windows and OSX.&lt;/li&gt;
+* &lt;/ul&gt;
+* &lt;p&gt;The skin of the button can be changed using a sprite. The sprite needs to have 
+* 3 sub-images. Each image is for a state:&lt;/p&gt;
+* &lt;ul&gt;&lt;li&gt;image_index 0: Normal State&lt;/li&gt;
+* &lt;li&gt;image_index 1: onFocus State (User is on the button, ready to interact)&lt;/li&gt;
+* &lt;li&gt;image_index 2: Disabled state (User can't interact with the element)&lt;/li&gt;
+* &lt;/ul&gt;
+* &lt;p&gt;The sprite that creates the body of the button needs to be 9x slice type. That
+* means the sprite is divided into equal 3 parts vertically and horizontally to
+* create the body. Any width and height that is divisible by 3 is fine.&lt;/p&gt;
+* &lt;h2&gt;Callback Scripts&lt;/h2&gt;
+* &lt;p&gt;For buttons you can optionally set four kind of a callback action.&lt;/p&gt;
+* &lt;ul&gt;&lt;li&gt;&lt;strong&gt;onMouseOver&lt;/strong&gt;: Triggered when the user moves the mouse over
+* to the button. Scripts to add and remove a callback are scr_button_set_on_mouseover_cb 
+* and scr_button_unset_on_mouseover_cb.&lt;/li&gt;
+* &lt;li&gt;&lt;strong&gt;onMouseOut&lt;/strong&gt;: Triggered when the user moves the mouse out of the 
+* button. Scripts to add and remove a callback are scr_button_set_on_mouseout_cb 
+* and scr_button_unset_on_mouseout_cb.&lt;/li&gt;
+* &lt;li&gt;&lt;strong&gt;onMouseDown&lt;/strong&gt;: Triggered when the user presses the mouse button
+* down on to the button. Scripts to add and remove a callback are 
+* scr_button_set_on_mousedown_cb and scr_button_unset_on_mousedown_cb.&lt;/li&gt;
+* &lt;li&gt;&lt;strong&gt;onMouseUp&lt;/strong&gt;: Triggered when the user releases the mouse button
+* after pressing it. Scripts to add and remove a callback are 
+* scr_button_set_on_mouseup_cb and scr_button_unset_on_mouseup_cb.&lt;/li&gt;
+* &lt;/ul&gt;
+* &lt;h2&gt;Other properties you can adjust:&lt;/h2&gt;
+* &lt;ul&gt;
+* &lt;li&gt;&lt;strong&gt;label&lt;/strong&gt;: Optionally, a text label can be shown on the button. 
+* Adjust it using scr_button_set_label script.&lt;/li&gt;
+* &lt;li&gt;&lt;strong&gt;padding&lt;/strong&gt;: Distances of the label to the sides of the button. 
+* Adjust it using scr_button_set_padding script.&lt;/li&gt;
+* &lt;li&gt;&lt;strong&gt;font&lt;/strong&gt;: Typeface of the label. Adjust it using 
+* scr_button_set_font script.&lt;/li&gt;
+* &lt;li&gt;&lt;strong&gt;font alignment&lt;/strong&gt;: Alignment of the label text. Adjust it using 
+* scr_button_set_font_align script.&lt;/li&gt;
+* &lt;li&gt;&lt;strong&gt;colors&lt;/strong&gt;: Adjust colors using scr_button_set_color script&lt;/li&gt;
+* &lt;/ul&gt;
+*/
+
+
+event_inherited();
 
 _type = 4;
 

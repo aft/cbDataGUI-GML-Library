@@ -25,7 +25,45 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>event_inherited();
+            <string>/**
+* Colorpicker is an element that allows users to choose a color 
+* using HSV sliders.&lt;br /&gt;&lt;br /&gt;
+* &lt;h2&gt;Features&lt;/h2&gt;
+* &lt;ul&gt;
+* &lt;li&gt;Supports tab-switching&lt;/li&gt;
+* &lt;li&gt;Has 3 states: Normal, onFocus, Disabled&lt;/li&gt;
+* &lt;li&gt;Supports variable size color button&lt;/li&gt;
+* &lt;li&gt;Color selection with mouse and keyboard&lt;/li&gt;
+* &lt;li&gt;Look of the color button can be customized using scripts&lt;/li&gt;
+* &lt;li&gt;Supports rotation&lt;/li&gt;
+* &lt;li&gt;Tested on Windows and OSX.&lt;/li&gt;
+* &lt;/ul&gt;
+* &lt;p&gt;There are two sprites that you can customize. One is for color selection
+* crosshair and one is for hue slider arrow. The mask sprite is for popup
+* collision and should not be changed.&lt;/p&gt;
+* &lt;h2&gt;Callback Scripts&lt;/h2&gt;
+* &lt;p&gt;For colorpickers you can optionally set two kinds of callback action.&lt;/p&gt;
+* &lt;ul&gt;&lt;li&gt;&lt;strong&gt;onChange&lt;/strong&gt;: Triggered after user makes a change on the
+* value of the colorpicker. Scripts to add and remove a callback are 
+* scr_colorpicker_set_on_change_cb and scr_colorpicker_unset_on_change_cb.&lt;/li&gt;
+* &lt;ul&gt;&lt;li&gt;&lt;strong&gt;onRelease&lt;/strong&gt;: Triggered after user makes a change and 
+* releases the left mouse button. Scripts to add and remove a callback are 
+* scr_colorpicker_set_on_change_cb and scr_colorpicker_unset_on_change_cb.&lt;/li&gt;
+* &lt;/ul&gt;
+* &lt;h2&gt;Other properties you can adjust:&lt;/h2&gt;
+* &lt;ul&gt;
+* &lt;li&gt;&lt;strong&gt;sizes&lt;/strong&gt;: Width, height and border thickness of the color
+* picker can be adjusted using scr_colorpicker_set_sizes script.&lt;/li&gt;
+* &lt;li&gt;&lt;strong&gt;font&lt;/strong&gt;: Typeface of the text on the colorpicker button.
+* Adjust it using scr_colorpicker_set_font script. This label can be turned
+* on or off using scr_colorpicker_show_info script.&lt;/li&gt;
+* &lt;li&gt;&lt;strong&gt;colors&lt;/strong&gt;: Adjust colors using scr_colorpicker_set_color 
+* script&lt;/li&gt;
+* &lt;/ul&gt;
+*/
+
+
+event_inherited();
 
 _type = 7;
 

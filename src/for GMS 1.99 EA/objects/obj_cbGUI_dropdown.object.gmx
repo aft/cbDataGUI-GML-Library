@@ -25,7 +25,66 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>event_inherited();
+            <string>/**
+* Dropdowns contains list of elements that users can choose from.&lt;br /&gt;&lt;br /&gt;
+* &lt;h2&gt;Features&lt;/h2&gt;
+* &lt;ul&gt;
+* &lt;li&gt;Supports tab-switching&lt;/li&gt;
+* &lt;li&gt;Has 3 states: Normal, onFocus, Disabled&lt;/li&gt;
+* &lt;li&gt;Supports variable size, popup row height, and popup item count&lt;/li&gt;
+* &lt;li&gt;Item selection with mouse and keyboard&lt;/li&gt;
+* &lt;li&gt;Look of the dropdown can be customized using scripts&lt;/li&gt;
+* &lt;li&gt;Supports any kind of fonts (monospaced or not)&lt;/li&gt;
+* &lt;li&gt;Supports rotation&lt;/li&gt;
+* &lt;li&gt;Tested on Windows and OSX.&lt;/li&gt;
+* &lt;/ul&gt;
+* &lt;p&gt;The skin of the dropdown can be changed using four sprites. The body 
+* sprite needs to have 3 sub-images. Each image is for a state:&lt;/p&gt;
+* &lt;ul&gt;&lt;li&gt;image_index 0: Normal State&lt;/li&gt;
+* &lt;li&gt;image_index 1: onFocus State (User is on the dropdown, ready to open the popup)&lt;/li&gt;
+* &lt;li&gt;image_index 2: Disabled state (User can't interact with the element)&lt;/li&gt;
+* &lt;/ul&gt;
+* &lt;p&gt;The sprite that creates the body of the dropdown needs to be 9x slice type. That
+* means the sprite is divided into equal 3 parts vertically and horizontally to
+* create the body. Any width or height that is divisible to 3 is fine.&lt;/p&gt;
+* &lt;p&gt;The sprite for the arrow icon on the right is a single image sprite. It is
+* drawn as it is on the right side of the body.&lt;/p&gt;
+* &lt;p&gt;The sprite for the popup is a 9x slice type. The popup is created using
+* this sprite. This sprite is a single image sprite.&lt;/p&gt;
+* There is also a sprite for the popup row seperator. This sprite is 3x slice type.
+* The width of the sprite must be divisible by 3.
+* &lt;h2&gt;Callback Scripts&lt;/h2&gt;
+* &lt;p&gt;For dropboxes you can optionally set only one kind of callback action.&lt;/p&gt;
+* &lt;ul&gt;&lt;li&gt;&lt;strong&gt;onChange&lt;/strong&gt;: Triggered after user makes a change on the value of 
+* the dropdown. Scripts to add and remove a callback are scr_dropdown_set_on_change_cb and
+* scr_dropdown_unset_on_change_cb.&lt;/li&gt;&lt;/ul&gt;
+* &lt;h2&gt;Other properties you can adjust:&lt;/h2&gt;
+* &lt;ul&gt;
+* &lt;li&gt;&lt;strong&gt;sizes&lt;/strong&gt;: Width and height of the dropdown can be adjusted using
+* scr_dropdown_set_sizes script.&lt;/li&gt;
+* &lt;li&gt;&lt;strong&gt;padding&lt;/strong&gt;: Distances of the text to left and right edges. 
+* Adjust it using scr_dropdown_set_padding script.&lt;/li&gt;
+* &lt;li&gt;&lt;strong&gt;popup paddings&lt;/strong&gt;: Distances of the text to top and bottom edges
+* of the popup. Adjust it using scr_dropdown_set_popup_padding script.&lt;/li&gt;
+* &lt;li&gt;&lt;strong&gt;scrollbar padding&lt;/strong&gt;: Distances of the bar to top, right and 
+* bottom edges. Adjust it using scr_dropdown_set_scrollbar_padding script.&lt;/li&gt;
+* &lt;li&gt;&lt;strong&gt;scrollbar width&lt;/strong&gt;: Width of the scrollbar. Adjust it using 
+* scr_dropdown_set_scrollbar_width script.&lt;/li&gt;
+* &lt;li&gt;&lt;strong&gt;popup offset&lt;/strong&gt;: Distances of the popup to the body. 
+* Adjust it using scr_dropdown_set_popup_offset script.&lt;/li&gt;
+* &lt;li&gt;&lt;strong&gt;popup lineheight&lt;/strong&gt;: The height of the popup rows. 
+* Adjust it using scr_dropdown_set_popup_lineheight script.&lt;/li&gt;
+* &lt;li&gt;&lt;strong&gt;popup maximum number of lines visible&lt;/strong&gt;: Number of lines visible
+* without needing a scrollbar. Adjust it using scr_dropdown_popup_max_lines script.&lt;/li&gt;
+* &lt;li&gt;&lt;strong&gt;font&lt;/strong&gt;: Typeface of the text inside the dropdown and the dropdown
+* popup.. Adjust it using scr_dropdown_set_font script.&lt;/li&gt;
+* &lt;li&gt;&lt;strong&gt;font alignment&lt;/strong&gt;: Alignment of the text of the body and the popup. 
+* Adjust it using scr_dropdown_font_align script.&lt;/li&gt;
+* &lt;li&gt;&lt;strong&gt;colors&lt;/strong&gt;: Adjust colors using scr_dropdown_set_color script&lt;/li&gt;
+* &lt;/ul&gt;
+*/
+
+event_inherited();
 
 _type = 6;
 

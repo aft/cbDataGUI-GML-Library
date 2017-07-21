@@ -26,7 +26,61 @@
           <argument>
             <kind>1</kind>
             <string>/**
-* Textbox
+* Textboxes are single line input fields that users can enter text.&lt;br /&gt;&lt;br /&gt;
+* &lt;h2&gt;Features&lt;/h2&gt;
+* &lt;ul&gt;
+* &lt;li&gt;Supports tab-switching&lt;/li&gt;
+* &lt;li&gt;Has 3 states: Normal, onFocus, Disabled&lt;/li&gt;
+* &lt;li&gt;Supports variable size (always single-line though)&lt;/li&gt;
+* &lt;li&gt;Text selection with mouse and keyboard&lt;/li&gt;
+* &lt;li&gt;Supports using of GM's new line char (#)&lt;/li&gt;
+* &lt;li&gt;Optional character filter for allowed characters&lt;/li&gt;
+* &lt;li&gt;Support for Home and End keys for easy navigation&lt;/li&gt;
+* &lt;li&gt;Support for shift key for making selections using arrow keys&lt;/li&gt;
+* &lt;li&gt;Cut, copy, paste support&lt;/li&gt;
+* &lt;li&gt;Look of the textbox can be customized using scripts&lt;/li&gt;
+* &lt;li&gt;Supports any kind of fonts (monospaced or not)&lt;/li&gt;
+* &lt;li&gt;Supports rotation&lt;/li&gt;
+* &lt;li&gt;Tested on Windows and OSX.&lt;/li&gt;
+* &lt;/ul&gt;
+* &lt;p&gt;The skin of the textbox can be changed using a sprite. The sprite needs to
+* have 3 sub-images. Each image is for a state:&lt;/p&gt;
+* &lt;ul&gt;&lt;li&gt;image_index 0: Normal State&lt;/li&gt;
+* &lt;li&gt;image_index 1: onFocus State (User is on the textbox, ready to type)&lt;/li&gt;
+* &lt;li&gt;image_index 2: Disabled state (User can't interact with the element)&lt;/li&gt;
+* &lt;/ul&gt;
+* &lt;p&gt;The sprite that creates the body of the textbox needs to be 9x slice type. That
+* means the sprite is divided into equal 3 parts vertically and horizontally to
+* create the body. Any width or height that is divisible to 3 is fine.&lt;/p&gt;
+* &lt;p&gt;If you want to create a password field using cbGUI Textbox, just replace the 
+* font to all-asterix-char font like 
+* &lt;a href=https://fontstruct.com/fontstructions/show/1069549/write_your_password_with_this_font&gt;
+* this one&lt;/a&gt;.&lt;/p&gt;
+* &lt;h2&gt;Callback Scripts&lt;/h2&gt;
+* &lt;p&gt;For textboxes you can optionally set two different kind of callback action.&lt;/p&gt;
+* &lt;ul&gt;&lt;li&gt;&lt;strong&gt;onChange&lt;/strong&gt;: Triggered after user makes a change on the value of 
+* the textbox. Scripts to add and remove a callback are scr_textbox_set_on_change_cb and
+* scr_textbox_unset_on_change_cb.&lt;/li&gt;
+* &lt;li&gt;&lt;strong&gt;onSubmit&lt;/strong&gt;: Submit is the action triggered when the user presses 
+* Enter inside the textbox. Scripts responsible to set and unset onSubmit callbacks are
+* scr_textbox_set_on_submit&lt;/li&gt;&lt;/ul&gt;
+* &lt;h2&gt;Other properties you can adjust:&lt;/h2&gt;
+* &lt;ul&gt;
+* &lt;li&gt;&lt;strong&gt;sizes&lt;/strong&gt;: Width and height of the textbox can be adjusted using
+* scr_textbox_set_sizes script.&lt;/li&gt;
+* &lt;li&gt;&lt;strong&gt;padding&lt;/strong&gt;: Distances of the text to four edges. Adjust it using 
+* scr_textbox_set_padding script.&lt;/li&gt;
+* &lt;li&gt;&lt;strong&gt;indent&lt;/strong&gt;: Distance of the text to the left edge. Adjust it using
+* scr_textbox_set_indent script.&lt;/li&gt;
+* &lt;li&gt;&lt;strong&gt;font&lt;/strong&gt;: Typeface of the text inside the textbox. Adjust it using 
+* scr_textbox_set_font script.&lt;/li&gt;
+* &lt;li&gt;&lt;strong&gt;Colors&lt;/strong&gt;: Adjust colors using scr_textbox_set_color script&lt;/li&gt;
+* &lt;li&gt;&lt;strong&gt;Text Shadow&lt;/strong&gt;: Optionally the text may have shadow. Adjust it
+* using scr_textbox_set_text_shadow script.&lt;/li&gt;
+* &lt;li&gt;&lt;strong&gt;Character validation&lt;/strong&gt;: Character filter can be turned on or off
+* using scr_textbox_enable_char_validation script. Allowed characters can be get and
+* set using scr_textbox_get_allowed_chars and scr_textbox_set_allowed_chars scripts.&lt;/li&gt;
+* &lt;/ul&gt;
 */
 
 event_inherited();
@@ -51,7 +105,7 @@ _cursorPos = 0;
 _showCursor = true;
 _selectionStarted = false;
 _selection[0] = 0; _selection[1] = 0;
-shadowEnabled = false;                      /*&lt; Variable description here. */
+shadowEnabled = false;                      
 shadowOpacity = .5;
 shadowColor = c_black;
 shadowOffset = 1; //px

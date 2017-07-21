@@ -25,7 +25,48 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>event_inherited();
+            <string>/**
+* Radioboxes are ui elements that has the value type of a boolean.&lt;br /&gt;&lt;br /&gt;
+* &lt;h2&gt;Features&lt;/h2&gt;
+* &lt;ul&gt;
+* &lt;li&gt;Supports tab-switching&lt;/li&gt;
+* &lt;li&gt;Has 3 states: Normal, onFocus, Disabled&lt;/li&gt;
+* &lt;li&gt;Has optional labels&lt;/li&gt;
+* &lt;li&gt;Can be checked and unchecked with mouse or keyboard&lt;/li&gt;
+* &lt;li&gt;Look of the radiobox can be customized using sprites&lt;/li&gt;
+* &lt;li&gt;Supports rotation&lt;/li&gt;
+* &lt;li&gt;Tested on Windows and OSX.&lt;/li&gt;
+* &lt;/ul&gt;
+* &lt;p&gt;The skin of the radiobox can be changed using 3 sprites. One sprite
+* for unchecked body, one sprite for checked body and one sprite for the 
+* check sign inside the radiobox.&lt;/p&gt; 
+* &lt;p&gt;Each sprite needs to have 3 sub-images. Each image is for a state:&lt;/p&gt;
+* &lt;ul&gt;&lt;li&gt;image_index 0: Normal State&lt;/li&gt;
+* &lt;li&gt;image_index 1: onFocus State (User is on the radiobox, ready to interact)&lt;/li&gt;
+* &lt;li&gt;image_index 2: Disabled state (User can't interact with the element)&lt;/li&gt;
+* &lt;/ul&gt;
+* &lt;p&gt;The sprite that creates the body of the radiobox both for checked 
+* and unchecked is drawn as it is. So the sprites determines the ui element size.&lt;/p&gt;
+* &lt;h2&gt;Callback Scripts&lt;/h2&gt;
+* &lt;p&gt;For radioboxes you can optionally set one kind of a callback action.&lt;/p&gt;
+* &lt;ul&gt;&lt;li&gt;&lt;strong&gt;onChange&lt;/strong&gt;: Triggered after user makes a change on the value of 
+* the radiobox. Scripts to add and remove a callback are scr_radiobox_set_on_change_cb 
+* and scr_radiobox_unset_on_change_cb.&lt;/li&gt;&lt;/ul&gt;
+* &lt;h2&gt;Other properties you can adjust:&lt;/h2&gt;
+* &lt;ul&gt;
+* &lt;li&gt;&lt;strong&gt;label&lt;/strong&gt;: Optionally, a text label can be shown on the right side
+* of the radiobox. Adjust it using scr_radiobox_set_label script.&lt;/li&gt;
+* &lt;li&gt;&lt;strong&gt;padding&lt;/strong&gt;: Distances of the label to the radiobox. Adjust it using 
+* scr_radiobox_set_padding script.&lt;/li&gt;
+* &lt;li&gt;&lt;strong&gt;indent&lt;/strong&gt;: Distance of the label text to the radiobox. Adjust it 
+* using scr_radiobox_set_indent script.&lt;/li&gt;
+* &lt;li&gt;&lt;strong&gt;font&lt;/strong&gt;: Typeface of the label. Adjust it using 
+* scr_radiobox_set_font script.&lt;/li&gt;
+* &lt;li&gt;&lt;strong&gt;colors&lt;/strong&gt;: Adjust colors using scr_radiobox_set_color script&lt;/li&gt;
+* &lt;/ul&gt;
+*/
+
+event_inherited();
 
 _type = 3;
 
