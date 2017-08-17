@@ -55,7 +55,7 @@ show_debug_overlay(true);</code>
     <instance objName="obj_Game" x="0" y="0" name="inst_388D644A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cbGUI_imagebutton" x="64" y="96" name="inst_33C23A8D" locked="0" code="sprite_index = spr_cbDataGUI_ib_new;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cbGUI_imagebutton" x="96" y="96" name="inst_61332624" locked="0" code="sprite_index = spr_cbDataGUI_ib_save;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_cbGUI_imagebutton" x="128" y="96" name="inst_E49F23F2" locked="0" code="sprite_index = spr_cbDataGUI_ib_load;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cbGUI_imagebutton" x="128" y="96" name="inst_E49F23F2" locked="0" code="sprite_index = spr_cbDataGUI_ib_revert;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cbGUI_imagebutton" x="160" y="96" name="inst_5810AB7D" locked="0" code="sprite_index = spr_cbDataGUI_ib_del;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cbGUI_imagebutton" x="192" y="96" name="inst_823CDC8A" locked="0" code="sprite_index = spr_cbDataGUI_ib_code;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cbGUI_imagebutton" x="224" y="96" name="inst_05C899C1" locked="0" code="sprite_index = spr_cbDataGUI_ib_new;&#xA;disabled = true;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
