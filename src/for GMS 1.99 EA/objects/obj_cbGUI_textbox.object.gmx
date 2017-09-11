@@ -173,11 +173,7 @@ _scr_textbox_setblink();
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (!disabled &amp;&amp; _onFocus &amp;&amp; !_selected) {
-    _showCursor = !_showCursor;
-    alarm_set(0, blinkSpeed*room_speed);
-}
-
+            <string>_scr_textbox_step_cursor();
 </string>
           </argument>
         </arguments>
@@ -206,6 +202,7 @@ if (disabled) exit; // skip if disabled
 if (!visible) exit;
 event_inherited();
 
+_scr_textbox_step_cursor();
 _scr_textbox_step_mouse();
 _scr_textbox_step_ctrl();
 
@@ -256,6 +253,14 @@ if ((rotation mod 360) != 0) {
 if (position_meeting(_nx, _ny, self) &amp;&amp; !disabled &amp;&amp; !_onFocus) {
     if (scr_cbGUI_mouse(true)) {
         _scr_cbGUI_setactive();
+        
+        // this is to disable all selections on other textboxes.
+        // this may be removed to enable it as a feature. not sure if i should.
+        with (obj_cbGUI_textbox) {
+            // _type == 0 means textbox
+            if (id != other.id &amp;&amp; _type = 0) _scr_textbox_unselect();
+        }
+        
         // start blinking cursor
         _scr_textbox_setblink();
     }
@@ -526,7 +531,7 @@ switch (k) {
         _scr_textbox_gotoend();
         break;
 
-            
+
     default:
         if (_scr_check_valid_char(string(c))) {
             // _selection present
@@ -541,8 +546,12 @@ switch (k) {
 
 }
 
+/* 
+// Breaks tabbing. obj: parent &gt; press a key action
 keyboard_lastkey = -1;
+*/
 keyboard_lastchar = '';
+
 </string>
           </argument>
         </arguments>

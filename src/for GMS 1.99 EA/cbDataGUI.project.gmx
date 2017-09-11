@@ -94,9 +94,8 @@
   </datafiles>
   <NewExtensions>
     <extension index="0">extensions\PBuffer - Pixel Buffer</extension>
-    <extension index="1">extensions\sn</extension>
-    <extension index="2">extensions\NoisePack CPU</extension>
-    <extension index="3">extensions\cbDataGUI for 1.9 EA</extension>
+    <extension index="2">extensions\cbDataGUI for 1.9 EA</extension>
+    <extension index="3">extensions\NoisePack GPU</extension>
   </NewExtensions>
   <sounds name="sound"/>
   <sprites name="sprites">
@@ -241,6 +240,7 @@
           <script>scripts\_scr_textbox_getselectedtext.gml</script>
           <script>scripts\_scr_textbox_step_mouse.gml</script>
           <script>scripts\_scr_textbox_step_ctrl.gml</script>
+          <script>scripts\_scr_textbox_step_cursor.gml</script>
         </scripts>
         <scripts name="public">
           <script>scripts\scr_textbox_clear.gml</script>
@@ -584,11 +584,14 @@
       <script>scripts\scr_cbDataGUI_set_gui_width.gml</script>
       <script>scripts\scr_cbDataGUI_set_step.gml</script>
       <script>scripts\scr_cbDataGUI_set_range.gml</script>
+      <script>scripts\scr_cbDataGUI_set_allowed_chars.gml</script>
+      <script>scripts\scr_cbDataGUI_get_allowed_chars.gml</script>
       <script>scripts\scr_cbDataGUI_open_folder.gml</script>
       <script>scripts\scr_cbDataGUI_get_value.gml</script>
       <script>scripts\scr_cbDataGUI_set_value.gml</script>
       <script>scripts\scr_cbDataGUI_has_row.gml</script>
       <script>scripts\scr_cbDataGUI_toggle_gui.gml</script>
+      <script>scripts\scr_cbDataGUI_set_gui_position.gml</script>
       <script>scripts\scr_cbDataGUI_set_tooltip.gml</script>
       <script>scripts\scr_cbDataGUI_unset_tooltip.gml</script>
       <script>scripts\scr_cbDataGUI_use_presets.gml</script>
@@ -609,6 +612,7 @@
       <scripts name="utils">
         <scripts name="public">
           <script>scripts\json_minify.gml</script>
+          <script>scripts\map.gml</script>
         </scripts>
       </scripts>
       <scripts name="fizzytext">
@@ -619,8 +623,8 @@
         <script>scripts\scr_ft_set_message.gml</script>
         <script>scripts\scr_fizzy_text_explode.gml</script>
         <script>scripts\scr_ft_onchange_set_message.gml</script>
-        <script>scripts\scr_alert_demo.gml</script>
         <script>scripts\scr_ft_destroy.gml</script>
+        <script>scripts\scr_alert_demo.gml</script>
       </scripts>
     </scripts>
     <scripts name="GPUToolkit">
@@ -642,25 +646,29 @@
         <script>scripts\buffer_exists_hack.gml</script>
         <script>scripts\README.gml</script>
       </scripts>
-    </scripts>
-    <scripts name="Simplex Noise">
-      <script>scripts\scr_sn_init.gml</script>
-      <script>scripts\scr_sn_set_seed.gml</script>
-      <script>scripts\scr_sn_get_seed.gml</script>
-      <script>scripts\scr_sn_noise.gml</script>
-      <scripts name="private">
-        <script>scripts\_sn_generate_perm.gml</script>
-        <script>scripts\_scr_sn_grad3.gml</script>
-        <script>scripts\_scr_sn_grad4.gml</script>
-        <script>scripts\_sn_noise2d.gml</script>
-        <script>scripts\_sn_noise3d.gml</script>
-        <script>scripts\_sn_noise4d.gml</script>
-        <script>scripts\_sn_dot2.gml</script>
-        <script>scripts\_sn_dot3.gml</script>
-        <script>scripts\_sn_dot4.gml</script>
+      <scripts name="GPU Noise">
+        <scripts name="public">
+          <script>scripts\gpu_noise_create.gml</script>
+          <script>scripts\gpu_noise_create_ext.gml</script>
+          <script>scripts\gpu_noise_1d.gml</script>
+          <script>scripts\gpu_noise_2d.gml</script>
+          <script>scripts\gpu_noise_3d.gml</script>
+          <script>scripts\gpu_noise_offset.gml</script>
+          <script>scripts\gpu_noise_to_surface.gml</script>
+          <script>scripts\gpu_noise_free.gml</script>
+          <script>scripts\README_gpu_noise.gml</script>
+        </scripts>
+        <scripts name="private">
+          <script>scripts\_gpu_noise_calculate.gml</script>
+        </scripts>
       </scripts>
     </scripts>
   </scripts>
+  <shaders name="shaders">
+    <shaders name="simplex noise glsles">
+      <shader type="GLSLES">shaders\sha_noise_simplex_3d.shader</shader>
+    </shaders>
+  </shaders>
   <fonts name="fonts">
     <font>fonts\cbGUIDebugFont</font>
     <font>fonts\cbGUIFont</font>
@@ -694,6 +702,7 @@
       <object>objects\oTest</object>
       <object>objects\oTestSin</object>
       <object>objects\oCP</object>
+      <object>objects\test_slider_bug1</object>
     </objects>
     <objects name="fizzytext">
       <object>objects\obj_fizzy_text_particle</object>
@@ -712,13 +721,11 @@
     <room>rooms\rm_example_8</room>
     <room>rooms\room_fizzytext</room>
     <room>rooms\room_cbgui_all</room>
-    <room>rooms\room_textbox</room>
     <room>rooms\room_dropdown</room>
     <room>rooms\room_nopreset_test</room>
     <room>rooms\room_typeoftests</room>
     <room>rooms\room_datgui_tests</room>
     <room>rooms\room_dropdown_lineoffset</room>
-    <room>rooms\room_slider</room>
     <room>rooms\room_masktest</room>
     <room>rooms\room_checkboxes</room>
     <room>rooms\room_dropdowntests</room>
@@ -729,6 +736,9 @@
     <room>rooms\room_scrtests</room>
     <room>rooms\room_imagebutton</room>
     <room>rooms\room_dsmap</room>
+    <room>rooms\room_slider</room>
+    <room>rooms\room_textbox</room>
+    <room>rooms\room_slider_bugtest</room>
     <room>rooms\testroom</room>
   </rooms>
   <help>

@@ -41,6 +41,9 @@ noiseScale = 1;
 pAlpha = 1;
 numOfParticles = 1000;
 
+noise = undefined;
+seed = random(1);
+
 color1 = make_colour_rgb(0,174,255);
 color2 = make_colour_rgb(15,169,84);
 color3 = make_colour_rgb(84,57,110);
@@ -57,7 +60,6 @@ particles = -1;
 pBuffer = -1;
 pSurface = -1;
 fSurface = -1;
-fBuffer = -1;
 
 width = string_width(message);
 height = string_height(message);
@@ -78,7 +80,6 @@ for (var i=0; i&lt;dep; i++) {
 
 
 randomize();
-scr_sn_init();
 scr_ft_set_message("FizzyText");
 scr_ft_create_flow_field();
 
@@ -152,6 +153,8 @@ scr_ft_create_flow_field();
           <argument>
             <kind>1</kind>
             <string>if (displayFlowNoise) {
+    fSurface = gpu_noise_to_surface(noise);
+    
     if (surface_exists(fSurface)) {
         draw_surface_ext(fSurface, xoffset, yoffset, 1, 1, 0, c_white, 1);
     }

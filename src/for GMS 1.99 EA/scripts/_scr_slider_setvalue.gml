@@ -5,8 +5,15 @@ if (minLimit != undefined && maxLimit != undefined) {
     value = clamp(real(argument0), min(minLimit, maxLimit), max(minLimit, maxLimit));
 } else {
     value = real(argument0);
-    minLimit = min(0, value);
-    maxLimit = max(0, value);
+    // i dont like doing this.. pff.. any suggestions?
+    if (value == 0) {
+        // int32 - 1
+        minLimit = -2147483647;
+        maxLimit = 2147483647;
+    } else {
+        minLimit = min(value+(abs(value)), value-(abs(value)));
+        maxLimit = max(value+(abs(value)), value-(abs(value)));
+    }
 }
 
 _perc = abs((value-minLimit) / (maxLimit-minLimit));

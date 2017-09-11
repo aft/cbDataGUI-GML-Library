@@ -1,4 +1,4 @@
-//_scr_cbGUI_setactive();
+//_scr_cbGUI_setactive([optional:obj]);
 var o = self;
 if (argument_count > 0) o = argument[0];
 with (obj_cbGUI_parent) _onFocus = false;

@@ -3,6 +3,6 @@
 // indicator parameters
 _iX = x + hPadding;
 _iY = y + vPadding;
-_iW = _sliderW - hPadding;
-_iH = _sliderH - 2*vPadding;
+_iW = _sliderW - hPadding; // indicator width (minus all padding etc.)
+_iH = _sliderH - 2*vPadding; // indicator height
 

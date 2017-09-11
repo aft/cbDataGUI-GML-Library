@@ -119,8 +119,7 @@ _oCargs  = undefined;
 _oCargs2 = undefined;
 _oRargs  = undefined;
 
-_scr_slider_setvalue(irandom_range(0, 100));
-_scr_slider_setrange(0, 100);
+_scr_slider_setvalue(0);
 
 </string>
           </argument>
@@ -349,9 +348,15 @@ if (!_onFocus) exit; // skip if not on focus
 var k = keyboard_lastkey;
 
 // for arrow keys
-var changeAmount;
-if (_stepValue == undefined) changeAmount = 1;
-else changeAmount = _iW / abs(maxLimit-minLimit) / _stepValue;
+var change_amount_ctrl, change_amount;
+
+if (_stepValue == undefined) {
+    change_amount_ctrl = min(round(_iW / abs(maxLimit-minLimit)), 1);
+    change_amount = abs(maxLimit-minLimit) * .05;
+} else {
+    change_amount_ctrl = min(round(_iW / abs(maxLimit-minLimit) * _stepValue), 1);
+    change_amount = _stepValue;
+}
         
 switch (k) {
 
@@ -362,32 +367,42 @@ switch (k) {
         break;
                  
     case (vk_left):
-        // fast decrement
-        if (keyboard_check(vk_shift)) changeAmount *= 5;
-        
-        // slow decrement
-        _scr_slider_setcursorpos(_cursorX-1*changeAmount);
+        if (keyboard_check(vk_shift)) {
+            // fast decrement
+            _scr_slider_setvalue(value-change_amount*5);
+        } else if (keyboard_check(vk_control)) {
+            // 1 px decrement
+            _scr_slider_setcursorpos(_cursorX-change_amount_ctrl);
+        } else {
+            // slow decrement
+            _scr_slider_setvalue(value-change_amount);
+        }
         break;
 
                     
     case (vk_right):
-        // fast increment
-        if (keyboard_check(vk_shift)) changeAmount *= 5;
-        
-        // slow increment
-        _scr_slider_setcursorpos(_cursorX+1*changeAmount);
+        if (keyboard_check(vk_shift)) {
+            // fast increment
+            _scr_slider_setvalue(value+change_amount*5);
+        } else if (keyboard_check(vk_control)) {
+            // 1 px increment
+            _scr_slider_setcursorpos(_cursorX+change_amount_ctrl);
+        } else {
+            // slow increment
+            _scr_slider_setvalue(value+change_amount);
+        }
         break;    
 
                 
     case (vk_up): case (vk_home):
         // go to min value
-        _scr_slider_setvalue(minLimit);
+        _scr_slider_setvalue(maxLimit);
         break;
 
                 
     case (vk_down): case (vk_end): 
         // go to max value
-        _scr_slider_setvalue(maxLimit);
+        _scr_slider_setvalue(minLimit);
         break;
 }
 

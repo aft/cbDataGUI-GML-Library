@@ -125,6 +125,7 @@ switch (argument[2]) {
                 make_color_rgb(0, 0, 0),
                 make_color_rgb(30, 30, 30)
             );
+            scr_textbox_set_allowed_chars(gObj2, "0123456789+-.");
             
             // set_value
             scr_slider_set_value(gObj, val);
