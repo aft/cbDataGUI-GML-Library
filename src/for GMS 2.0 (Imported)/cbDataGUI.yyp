@@ -4922,25 +4922,6 @@
             }
         },
         {
-            "Key": "7c0e756c-94b4-4701-b5c4-6125d38967f8",
-            "Value": {
-                "id": "84b9bd24-b16c-4e28-9781-2fd1fb52a4b5",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "scripts\/scr_dance\/scr_dance.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "7c1c3c65-eee7-4d4d-a854-e1d679079d07",
             "Value": {
                 "id": "5855427d-ff37-4a1c-9b73-cdb4981c4139",
@@ -11177,7 +11158,6 @@
         "653aa27f-dbf1-446a-98a3-e1b348f51891",
         "29000080-e30d-47ed-80ac-7c339898f39e",
         "a58f6874-d03c-4f6f-ad59-3bd772e03be3",
-        "7c0e756c-94b4-4701-b5c4-6125d38967f8",
         "c076ee78-457b-4f0d-af37-614b3626ad0d",
         "80e853b7-201b-47c5-9bb4-04cf51ee3938",
         "146ced7e-39c4-4c73-9b53-6a9068d367eb",
