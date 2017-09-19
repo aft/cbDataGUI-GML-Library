@@ -94,8 +94,8 @@
   </datafiles>
   <NewExtensions>
     <extension index="0">extensions\PBuffer - Pixel Buffer</extension>
-    <extension index="2">extensions\cbDataGUI for 1.9 EA</extension>
-    <extension index="3">extensions\NoisePack GPU</extension>
+    <extension index="1">extensions\cbDataGUI for 1.9 EA</extension>
+    <extension index="2">extensions\NoisePack GPU</extension>
   </NewExtensions>
   <sounds name="sound"/>
   <sprites name="sprites">
@@ -601,6 +601,7 @@
       <script>scripts\scr_cbDataGUI_save_preset.gml</script>
       <script>scripts\scr_cbDataGUI_load_preset.gml</script>
       <script>scripts\scr_cbDataGUI_delete_preset.gml</script>
+      <script>scripts\scr_cbDataGUI_has_preset_file.gml</script>
       <script>scripts\scr_cbDataGUI_get_preset_json.gml</script>
       <script>scripts\scr_cbDataGUI_import_presets_json.gml</script>
       <script>scripts\scr_cbDataGUI_set_notification.gml</script>
