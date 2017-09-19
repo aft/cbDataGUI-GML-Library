@@ -129,7 +129,7 @@ switch (argument[2]) {
             
             // set_value
             scr_slider_set_value(gObj, val);
-            scr_textbox_set_value(gObj2, val);
+            scr_textbox_set_value(gObj2, string_format(val, -1, 3));
             
             scr_slider_set_target(gObj, argument[3], argument[4]);
             

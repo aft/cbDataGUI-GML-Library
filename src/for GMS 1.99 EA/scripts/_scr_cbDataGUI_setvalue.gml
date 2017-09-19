@@ -15,9 +15,7 @@ switch (comp._type) {
         var k, v;
         k = comp._targetVariable;
         v = ds_map_find_value(dsmap, k);
-        //show_debug_message(k + " -> " + string(v));
         if (ds_map_exists(dsmap, k)) {
-            //show_debug_message("Setting " + k + " as " + string(v));
             if (comp._multiple != undefined) {
                 scr_dropdown_set_value(comp._component, v);
             } else {
@@ -32,16 +30,14 @@ switch (comp._type) {
         var k, v;
         k = comp._targetVariable;
         v = ds_map_find_value(dsmap, k);
-        //show_debug_message(k + " -> " + string(v));
         if (ds_map_exists(dsmap, k)) {
-            //show_debug_message("Setting " + k + " as " + string(v));
             if (comp._multiple != undefined) {
                 scr_dropdown_set_value(comp._component, v);
             } else {
-                scr_slider_set_value(comp._component[@0], v);
+                scr_slider_set_value(comp._component[@0], string_format(v, -1, 8));
                 scr_cbGUI_mark_as_changed(comp._component[@0]);
                 
-                scr_textbox_set_value(comp._component[@1], v);
+                scr_textbox_set_value(comp._component[@1], string_format(v, -1, 3));
                 scr_cbGUI_mark_as_changed(comp._component[@1]);
             }
         }
@@ -51,9 +47,7 @@ switch (comp._type) {
         var k, v;
         k = comp._targetVariable;
         v = ds_map_find_value(dsmap, k);
-        //show_debug_message(k + " -> " + string(v));
         if (ds_map_exists(dsmap, k)) {
-            //show_debug_message("Setting " + k + " as " + string(v));
             scr_checkbox_set_value(comp._component, v);
             scr_cbGUI_mark_as_changed(comp._component);
         }
@@ -63,9 +57,7 @@ switch (comp._type) {
         var k, v;
         k = comp._targetVariable;
         v = ds_map_find_value(dsmap, k);
-        //show_debug_message(k + " -> " + string(v));
         if (ds_map_exists(dsmap, k)) {
-            //show_debug_message("Setting " + k + " as " + string(v));
             if (comp._multiple != undefined) {
                 scr_dropdown_set_value(comp._component, v);
             } else {
